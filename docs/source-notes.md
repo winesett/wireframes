@@ -9,6 +9,11 @@
 - Route JSON saved: `source/figma-site/raw-json/banner.json`
 - Route HTML snapshot saved: `source/figma-site/raw-json/banner.html`
 
+## Local Naming Convention
+
+- Banner folders are zero-padded for `01` through `09` and unpadded for `10` through `16`.
+- Stable section ids are unpadded: `banner-1` through `banner-16`.
+
 ## Banner / 1 / Source Report
 
 - Stable section id: `banner-1`

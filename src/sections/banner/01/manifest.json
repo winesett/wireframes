@@ -19,6 +19,7 @@
   ],
   "responsive": {
     "desktop": "Source geometry at 1440 x 69.",
-    "mobile": "Source geometry at 375 x 234; capped at 375px and centered for mobile previews wider than the source."
+    "mobile": "Source geometry at 375 x 234; capped at 375px and centered for mobile previews wider than the source.",
+    "tablet": "Fluid stacked tablet state between the desktop form row and narrow mobile target; five-width rerun still needed after metadata cleanup."
   }
 }

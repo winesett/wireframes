@@ -15,6 +15,6 @@
   "responsive": {
     "desktop": "Source geometry at 1440 x 60 with seven repeated text-logo items in a clipped row.",
     "mobile": "Source geometry at 375 x 57 with seven repeated text-logo items clipped inside a 335px content frame.",
-    "tablet": "Fluid clipped ticker row interpolates the desktop and mobile item gap while preserving the bottom divider shell."
+    "tablet": "Fluid repeated-text logo row between the distributed seven-item desktop row and narrow mobile ticker target."
   }
 }

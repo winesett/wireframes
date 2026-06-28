@@ -30,6 +30,7 @@
 
 - Desktop local metrics: section `1440 x 69`, container `1280 x 69`, no horizontal overflow.
 - Mobile local metrics: section `390 x 234`, container `335 x 234`, no horizontal overflow.
+- Banner 1 should be rerun at `1440`, `1024`, `768`, `390`, and `320` before moving it beyond draft; the recorded checks remain historical at `1440px` and `390px`.
 - Banner 2 local metrics: `1440` and `1024` row layout; `768`, `390`, and `320` column layout; mobile anchor at `390` renders section `390 x 178` and container `335 x 178`; no horizontal overflow.
 - Banner 3 local metrics: `1440` and `1024` row layout with two-button actions; `768`, `390`, and `320` column layout; mobile anchor at `390` renders section `390 x 178` and container `335 x 178`; no horizontal overflow.
 - Banner 4 local metrics: `1440` and `1024` row layout with social links; `768`, `390`, and `320` column layout; mobile anchor at `390` renders section `390 x 162`, frame `375 x 162`, and container `335 x 162`; no horizontal overflow.

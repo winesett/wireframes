@@ -15,6 +15,6 @@
   "responsive": {
     "desktop": "Source geometry at 1440 x 60.",
     "mobile": "Source geometry at 375 x 57; capped at 375px and centered for narrow mobile previews.",
-    "tablet": "Fluid repeated-logo row between the desktop five-item row and narrow mobile ticker target."
+    "tablet": "Fluid repeated-text logo row between the desktop five-item row and narrow mobile ticker target."
   }
 }

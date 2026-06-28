@@ -26,31 +26,40 @@
       iframe {
         display: block;
         width: 100vw;
-        height: 260px;
+        height: var(--preview-height, 260px);
         border: 0;
-      }
-
-      .preview--banner-13 {
-        height: 454px;
       }
     </style>
   </head>
   <body>
-    <iframe src="../src/sections/banner/01/section.html" title="Banner 1 preview"></iframe>
-    <iframe src="../src/sections/banner/02/section.html" title="Banner 2 preview"></iframe>
-    <iframe src="../src/sections/banner/03/section.html" title="Banner 3 preview"></iframe>
-    <iframe src="../src/sections/banner/04/section.html" title="Banner 4 preview"></iframe>
-    <iframe src="../src/sections/banner/05/section.html" title="Banner 5 preview"></iframe>
-    <iframe src="../src/sections/banner/06/section.html" title="Banner 6 preview"></iframe>
-    <iframe src="../src/sections/banner/07/section.html" title="Banner 7 preview"></iframe>
-    <iframe src="../src/sections/banner/08/section.html" title="Banner 8 preview"></iframe>
-    <iframe src="../src/sections/banner/09/section.html" title="Banner 9 preview"></iframe>
-    <iframe src="../src/sections/banner/10/section.html" title="Banner 10 preview"></iframe>
-    <iframe src="../src/sections/banner/11/section.html" title="Banner 11 preview"></iframe>
-    <iframe src="../src/sections/banner/12/section.html" title="Banner 12 preview"></iframe>
-    <iframe class="preview--banner-13" src="../src/sections/banner/13/section.html" title="Banner 13 preview"></iframe>
-    <iframe src="../src/sections/banner/14/section.html" title="Banner 14 preview"></iframe>
-    <iframe src="../src/sections/banner/15/section.html" title="Banner 15 preview"></iframe>
-    <iframe src="../src/sections/banner/16/section.html" title="Banner 16 preview"></iframe>
+    <script>
+      const previews = [
+        { number: 1, height: 260 },
+        { number: 2, height: 260 },
+        { number: 3, height: 260 },
+        { number: 4, height: 260 },
+        { number: 5, height: 260 },
+        { number: 6, height: 260 },
+        { number: 7, height: 260 },
+        { number: 8, height: 260 },
+        { number: 9, height: 260 },
+        { number: 10, height: 260 },
+        { number: 11, height: 260 },
+        { number: 12, height: 260 },
+        { number: 13, height: 454 },
+        { number: 14, height: 260 },
+        { number: 15, height: 260 },
+        { number: 16, height: 260 },
+      ];
+
+      for (const preview of previews) {
+        const folder = preview.number < 10 ? `0${preview.number}` : String(preview.number);
+        const iframe = document.createElement("iframe");
+        iframe.src = `../src/sections/banner/${folder}/section.html`;
+        iframe.title = `Banner ${preview.number} preview`;
+        iframe.style.setProperty("--preview-height", `${preview.height}px`);
+        document.body.appendChild(iframe);
+      }
+    </script>
   </body>
 </html>

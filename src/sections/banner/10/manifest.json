@@ -1,0 +1,22 @@
+{
+  "id": "banner-10",
+  "category": "banner",
+  "variant": "10",
+  "sourceName": "Banner / 10 /",
+  "status": "draft",
+  "source": {
+    "route": "/banner",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/banner.json",
+    "desktopNode": "5:212867",
+    "mobileNode": "26:105311"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/64f896b4c3690a302cef786da86b02c1d82c4846.svg"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 48.",
+    "mobile": "Source geometry at 375 x 64; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Fluid compact row between the desktop centered text-link strip and narrow mobile target."
+  }
+}

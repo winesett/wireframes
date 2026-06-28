@@ -1,0 +1,22 @@
+{
+  "id": "banner-15",
+  "category": "banner",
+  "variant": "15",
+  "sourceName": "Banner / 15 /",
+  "status": "draft",
+  "source": {
+    "route": "/banner",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/banner.json",
+    "desktopNode": "5:212873",
+    "mobileNode": "26:105316"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/6cb201291e4ea983199a3a89a94ca74dbc837c13.png"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 128 with an overflowing alternating text and image ticker.",
+    "mobile": "Source geometry at 375 x 96 with the same alternating ticker clipped inside the mobile frame.",
+    "tablet": "Fluidly interpolates text, media, and row height between the source anchor states while preserving clipped ticker behavior."
+  }
+}

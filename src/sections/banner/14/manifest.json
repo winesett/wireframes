@@ -1,0 +1,20 @@
+{
+  "id": "banner-14",
+  "category": "banner",
+  "variant": "14",
+  "sourceName": "Banner / 14 /",
+  "status": "draft",
+  "source": {
+    "route": "/banner",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/banner.json",
+    "desktopNode": "5:212871",
+    "mobileNode": "26:105315"
+  },
+  "assets": [],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 60 with seven repeated text-logo items in a clipped row.",
+    "mobile": "Source geometry at 375 x 57 with seven repeated text-logo items clipped inside a 335px content frame.",
+    "tablet": "Fluid clipped ticker row interpolates the desktop and mobile item gap while preserving the bottom divider shell."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "banner-9",
+  "category": "banner",
+  "variant": "9",
+  "sourceName": "Banner / 9 /",
+  "status": "draft",
+  "source": {
+    "route": "/banner",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/banner.json",
+    "desktopNode": "5:212866",
+    "mobileNode": "26:105310"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/9cf122f64ad5a3bc077989c0acec462e1de94ebc.svg",
+    "../../../../source/figma-site/assets/64f896b4c3690a302cef786da86b02c1d82c4846.svg",
+    "../../../../source/figma-site/assets/37ab8e01284c0a28e8d2c33fee6db113c084e130.svg",
+    "../../../../source/figma-site/assets/64205548f4ee19fd0362d04f06a5d3163563eb10.svg",
+    "../../../../source/figma-site/assets/a9930f3a5872e0ed703568c2e00004a07e8f1835.svg",
+    "../../../../source/figma-site/assets/f87710bc1f4615ed846a28cc98b1a8e493cdd257.svg",
+    "../../../../source/figma-site/assets/a7d710d788512cc497b61528d99ce3a1fd6be6db.svg"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 69.",
+    "mobile": "Source geometry at 375 x 138; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Stacked fluid tablet state between the full-width desktop row and narrow mobile target."
+  }
+}

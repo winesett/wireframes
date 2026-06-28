@@ -1,0 +1,20 @@
+{
+  "id": "banner-13",
+  "category": "banner",
+  "variant": "13",
+  "sourceName": "Banner / 13 /",
+  "status": "draft",
+  "source": {
+    "route": "/banner",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/banner.json",
+    "desktopNode": "5:212870",
+    "mobileNode": "26:105314"
+  },
+  "assets": [],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 454 with two clipped 96px oversized heading rows.",
+    "mobile": "Source geometry at 375 x 244 with two clipped 48px oversized heading rows.",
+    "tablet": "Fluidly interpolates the marquee scale, vertical padding, row offsets, and clipped overflow between the source anchor states."
+  }
+}

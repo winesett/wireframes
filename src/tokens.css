@@ -1,0 +1,13 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-muted: #666;
+
+  --font-sans: Roboto, Arial, Helvetica, sans-serif;
+  --text-body: 16px;
+  --line-body: 1.5;
+
+  --section-max-width: 1280px;
+  --desktop-page-padding: 64px;
+  --mobile-page-padding: 20px;
+}

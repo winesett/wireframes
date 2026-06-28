@@ -1,0 +1,20 @@
+{
+  "id": "banner-11",
+  "category": "banner",
+  "variant": "11",
+  "sourceName": "Banner / 11 /",
+  "status": "draft",
+  "source": {
+    "route": "/banner",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/banner.json",
+    "desktopNode": "5:212868",
+    "mobileNode": "26:105312"
+  },
+  "assets": [],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 60.",
+    "mobile": "Source geometry at 375 x 57; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Fluid repeated-logo row between the desktop five-item row and narrow mobile ticker target."
+  }
+}

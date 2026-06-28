@@ -1,0 +1,55 @@
+.banner-15 {
+  --banner-15-height: clamp(96px, calc(96px + (100vw - 375px) * 0.0301), 128px);
+  --banner-15-track-height: clamp(64px, calc(64px + (100vw - 375px) * 0.0301), 96px);
+  --banner-15-text-width: clamp(304px, calc(304px + (100vw - 375px) * 0.1023), 413px);
+  --banner-15-text-height: clamp(48px, calc(48px + (100vw - 375px) * 0.0178), 67px);
+  --banner-15-media-width: clamp(96px, calc(96px + (100vw - 375px) * 0.0451), 144px);
+  --banner-15-font-size: clamp(40px, calc(40px + (100vw - 375px) * 0.015), 56px);
+  --banner-15-line-height: clamp(48px, calc(48px + (100vw - 375px) * 0.018), 67.2px);
+
+  width: 100%;
+  height: var(--banner-15-height);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: var(--color-white);
+}
+
+.banner-15__track {
+  width: max-content;
+  height: var(--banner-15-track-height);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.banner-15__text {
+  flex: 0 0 var(--banner-15-text-width);
+  width: var(--banner-15-text-width);
+  height: var(--banner-15-text-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 16px;
+  color: var(--color-black);
+  font-size: var(--banner-15-font-size);
+  font-weight: 700;
+  line-height: var(--banner-15-line-height);
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.banner-15__media {
+  flex: 0 0 var(--banner-15-media-width);
+  width: var(--banner-15-media-width);
+  height: var(--banner-15-track-height);
+  display: block;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .banner-15 {
+    width: min(100%, 375px);
+    margin-inline: auto;
+  }
+}

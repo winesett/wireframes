@@ -34,3 +34,4 @@
 - Added `banner-16` from saved source snapshots; it completes the initial banner set with a two-row logo/media ticker variant, reuses the Banner 15 PNG asset, and was checked through the persistent preview server at `1440`, `1024`, `768`, `390`, and `320` with no horizontal overflow, no item overlap, loaded media assets, intentional clipped ticker overflow, and no divider or border.
 - Created initial Git checkpoint `12a17bc` (`Complete draft banner category`), then performed metadata/catalog cleanup only: manifest wording, naming convention docs, QA note, and data-driven catalog preview heights.
 - Recorded human visual QA pass for Banners 1-16. Implementation status remains `draft`; no section HTML/CSS was changed.
+- Started a tiny banner-only shared CSS cleanup on `banner-shared-css-pass`: added category-local shared shell, mobile-frame, divider, container-background, and close-control rules while preserving section-specific layout geometry.

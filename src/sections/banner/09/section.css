@@ -1,29 +1,9 @@
+@import "../banner.shared.css";
+
 .banner-9 {
-  position: relative;
-  width: 100%;
   min-height: 69px;
-  display: flex;
-  justify-content: center;
-  overflow-x: clip;
-  background: var(--color-white);
-  padding-inline: clamp(var(--mobile-page-padding), 4.45vw, var(--desktop-page-padding));
 }
 
-.banner-9::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 1px;
-  background: var(--color-black);
-  pointer-events: none;
-}
-
-.banner-9__mobile-frame {
-  width: 100%;
-  max-width: var(--section-max-width);
-}
 
 .banner-9__container {
   position: relative;
@@ -32,7 +12,6 @@
   display: flex;
   align-items: center;
   gap: 32px;
-  background: var(--color-white);
 }
 
 .banner-9__message {
@@ -111,14 +90,7 @@
 
 .banner-9__close {
   width: 32px;
-  height: 32px;
   flex: 0 0 32px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 0;
-  padding: 0;
-  background: transparent;
 }
 
 .banner-9__close-icon--mobile {

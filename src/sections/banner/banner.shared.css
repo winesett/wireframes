@@ -1,0 +1,112 @@
+:is(
+  .banner-1,
+  .banner-2,
+  .banner-3,
+  .banner-4,
+  .banner-5,
+  .banner-6,
+  .banner-7,
+  .banner-8,
+  .banner-9,
+  .banner-10,
+  .banner-11,
+  .banner-12,
+  .banner-14
+) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: clip;
+  background: var(--color-white);
+  padding-inline: clamp(var(--mobile-page-padding), 4.45vw, var(--desktop-page-padding));
+}
+
+:is(
+  .banner-1__mobile-frame,
+  .banner-2__mobile-frame,
+  .banner-3__mobile-frame,
+  .banner-4__mobile-frame,
+  .banner-5__mobile-frame,
+  .banner-6__mobile-frame,
+  .banner-7__mobile-frame,
+  .banner-8__mobile-frame,
+  .banner-9__mobile-frame,
+  .banner-10__mobile-frame,
+  .banner-11__mobile-frame,
+  .banner-12__mobile-frame,
+  .banner-14__mobile-frame
+) {
+  width: 100%;
+  max-width: var(--section-max-width);
+}
+
+:is(
+  .banner-1__container,
+  .banner-2__container,
+  .banner-3__container,
+  .banner-4__container,
+  .banner-5__container,
+  .banner-6__container,
+  .banner-7__container,
+  .banner-8__container,
+  .banner-9__container,
+  .banner-10__container
+) {
+  background: var(--color-white);
+}
+
+:is(
+  .banner-6,
+  .banner-7,
+  .banner-8,
+  .banner-9,
+  .banner-10,
+  .banner-11,
+  .banner-12,
+  .banner-14
+) {
+  position: relative;
+}
+
+:is(
+  .banner-6,
+  .banner-7,
+  .banner-8,
+  .banner-9,
+  .banner-10,
+  .banner-11,
+  .banner-12,
+  .banner-14
+)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--color-black);
+  pointer-events: none;
+}
+
+:is(
+  .banner-1__close,
+  .banner-2__close,
+  .banner-3__close,
+  .banner-4__close,
+  .banner-5__close,
+  .banner-6__close,
+  .banner-7__close,
+  .banner-8__close,
+  .banner-9__close,
+  .banner-10__close
+) {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}

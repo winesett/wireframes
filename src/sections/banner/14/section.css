@@ -1,28 +1,10 @@
-.banner-14 {
-  position: relative;
-  width: 100%;
-  min-height: 60px;
-  display: flex;
-  justify-content: center;
-  overflow-x: clip;
-  background: var(--color-white);
-  padding-inline: clamp(var(--mobile-page-padding), 4.45vw, var(--desktop-page-padding));
-}
+@import "../banner.shared.css";
 
-.banner-14::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 1px;
-  background: var(--color-black);
-  pointer-events: none;
+.banner-14 {
+  min-height: 60px;
 }
 
 .banner-14__mobile-frame {
-  width: 100%;
-  max-width: var(--section-max-width);
   overflow: hidden;
 }
 

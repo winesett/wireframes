@@ -1,23 +1,25 @@
 # QA Status
 
+Banner category human visual QA passed for Banners 1-16 on 2026-06-29. Implementation status remains `draft` until a separate promotion/status convention exists.
+
 | Section | Status | Notes |
 | --- | --- | --- |
-| `banner-1` | `draft` | Built and locally checked at `1440px` and `390px`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-2` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-3` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-4` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-5` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-6` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-7` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-8` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-9` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-10` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-11` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-12` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-13` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-14` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-15` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
-| `banner-16` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Requires human visual review before completion. |
+| `banner-1` | `draft` | Built and locally checked at `1440px` and `390px`; no horizontal overflow. Human visual QA review passed. |
+| `banner-2` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-3` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-4` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-5` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-6` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-7` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-8` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-9` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-10` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-11` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-12` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-13` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-14` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-15` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
+| `banner-16` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
 
 ## Check Artifacts
 
@@ -30,7 +32,7 @@
 
 - Desktop local metrics: section `1440 x 69`, container `1280 x 69`, no horizontal overflow.
 - Mobile local metrics: section `390 x 234`, container `335 x 234`, no horizontal overflow.
-- Banner 1 should be rerun at `1440`, `1024`, `768`, `390`, and `320` before moving it beyond draft; the recorded checks remain historical at `1440px` and `390px`.
+- Banner 1 passed category-level human visual QA; its automated five-width record remains historical at `1440px` and `390px` and should be rerun before any future status promotion.
 - Banner 2 local metrics: `1440` and `1024` row layout; `768`, `390`, and `320` column layout; mobile anchor at `390` renders section `390 x 178` and container `335 x 178`; no horizontal overflow.
 - Banner 3 local metrics: `1440` and `1024` row layout with two-button actions; `768`, `390`, and `320` column layout; mobile anchor at `390` renders section `390 x 178` and container `335 x 178`; no horizontal overflow.
 - Banner 4 local metrics: `1440` and `1024` row layout with social links; `768`, `390`, and `320` column layout; mobile anchor at `390` renders section `390 x 162`, frame `375 x 162`, and container `335 x 162`; no horizontal overflow.

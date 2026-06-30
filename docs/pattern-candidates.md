@@ -69,6 +69,7 @@ Observed only. Do not abstract yet.
 
 ## Header Category
 
+- Header category human visual QA has passed for Headers 44-70; implementation status remains `draft`.
 - Header 44 and Header 46 both use a light white shell, centered max-width page frame, left-aligned `768px` copy block, no media, no border, and no divider.
 - Header 44 adds a tagline and fixed `208 x 48` two-button action row; Header 46 is text-only.
 - Header 45 extends the left-column shell with an email form and terms text.

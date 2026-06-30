@@ -2,6 +2,8 @@
 
 Banner category human visual QA passed for Banners 1-16 on 2026-06-29. Implementation status remains `draft` until a separate promotion/status convention exists.
 
+Header category human visual QA passed for Headers 44-70 on 2026-06-30. Implementation status remains `draft` until a separate promotion/status convention exists.
+
 | Section | Status | Notes |
 | --- | --- | --- |
 | `banner-1` | `draft` | Built and locally checked at `1440px` and `390px`; no horizontal overflow. Human visual QA review passed. |
@@ -20,33 +22,33 @@ Banner category human visual QA passed for Banners 1-16 on 2026-06-29. Implement
 | `banner-14` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
 | `banner-15` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
 | `banner-16` | `draft` | Built from saved source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow. Human visual QA review passed. |
-| `header-44` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
-| `header-45` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
-| `header-46` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
-| `header-47` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
-| `header-48` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
-| `header-49` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
-| `header-50` | `draft` | Image left two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, button overlap, or hidden text was detected. Human visual QA still needed. |
-| `header-51` | `draft` | Dark left two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
-| `header-52` | `draft` | Image left email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, input/button overlap, or hidden terms text was detected. Human visual QA still needed. |
-| `header-53` | `draft` | Dark left email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
-| `header-54` | `draft` | Image left text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow or hidden text was detected. Human visual QA still needed. |
-| `header-55` | `draft` | Dark left text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
-| `header-56` | `draft` | Image split two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, button overlap, or hidden text was detected. Human visual QA still needed. |
-| `header-57` | `draft` | Dark split two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
-| `header-58` | `draft` | Image split email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, input/button overlap, or hidden terms text was detected. Human visual QA still needed. |
-| `header-59` | `draft` | Dark split email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
-| `header-60` | `draft` | Image split text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow or hidden text was detected. Human visual QA still needed. |
-| `header-61` | `draft` | Dark split text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
-| `header-62` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
-| `header-63` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
-| `header-64` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
-| `header-65` | `draft` | Image centered two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, button overlap, or hidden text was detected. Human visual QA still needed. |
-| `header-66` | `draft` | Dark centered two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
-| `header-67` | `draft` | Image centered email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, input/button overlap, or hidden terms text was detected. Human visual QA still needed. |
-| `header-68` | `draft` | Dark centered email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
-| `header-69` | `draft` | Image centered text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow or hidden text was detected. Human visual QA still needed. |
-| `header-70` | `draft` | Dark centered text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
+| `header-44` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA review passed. |
+| `header-45` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA review passed. |
+| `header-46` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA review passed. |
+| `header-47` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA review passed. |
+| `header-48` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA review passed. |
+| `header-49` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA review passed. |
+| `header-50` | `draft` | Image left two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, button overlap, or hidden text was detected. Human visual QA review passed. |
+| `header-51` | `draft` | Dark left two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA review passed. |
+| `header-52` | `draft` | Image left email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, input/button overlap, or hidden terms text was detected. Human visual QA review passed. |
+| `header-53` | `draft` | Dark left email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA review passed. |
+| `header-54` | `draft` | Image left text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow or hidden text was detected. Human visual QA review passed. |
+| `header-55` | `draft` | Dark left text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA review passed. |
+| `header-56` | `draft` | Image split two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, button overlap, or hidden text was detected. Human visual QA review passed. |
+| `header-57` | `draft` | Dark split two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA review passed. |
+| `header-58` | `draft` | Image split email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, input/button overlap, or hidden terms text was detected. Human visual QA review passed. |
+| `header-59` | `draft` | Dark split email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA review passed. |
+| `header-60` | `draft` | Image split text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow or hidden text was detected. Human visual QA review passed. |
+| `header-61` | `draft` | Dark split text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA review passed. |
+| `header-62` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA review passed. |
+| `header-63` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA review passed. |
+| `header-64` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA review passed. |
+| `header-65` | `draft` | Image centered two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, button overlap, or hidden text was detected. Human visual QA review passed. |
+| `header-66` | `draft` | Dark centered two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA review passed. |
+| `header-67` | `draft` | Image centered email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow, input/button overlap, or hidden terms text was detected. Human visual QA review passed. |
+| `header-68` | `draft` | Dark centered email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA review passed. |
+| `header-69` | `draft` | Image centered text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow or hidden text was detected. Human visual QA review passed. |
+| `header-70` | `draft` | Dark centered text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA review passed. |
 
 ## Check Artifacts
 

@@ -35,3 +35,4 @@
 - Created initial Git checkpoint `12a17bc` (`Complete draft banner category`), then performed metadata/catalog cleanup only: manifest wording, naming convention docs, QA note, and data-driven catalog preview heights.
 - Recorded human visual QA pass for Banners 1-16. Implementation status remains `draft`; no section HTML/CSS was changed.
 - Started a tiny banner-only shared CSS cleanup on `banner-shared-css-pass`: added category-local shared shell, mobile-frame, divider, container-background, and close-control rules while preserving section-specific layout geometry.
+- Added banner-local reusable button classes for Banners 1, 2, 3, 6, 7, and 8 while preserving existing section-specific classes, sizing, and action layout rules.

@@ -76,5 +76,7 @@ Observed only. Do not abstract yet.
 - Headers 62-64 start the light centered mini-family: centered `768px` text shell, centered two-button CTA, and centered email form with terms.
 - Headers 51, 53, 55, 57, 59, 61, 66, 68, and 70 establish the dark header families: left, split, and centered shells with text-only, two-button, and email-form action patterns.
 - Dark variants consistently use `#444` background, white text, white primary buttons with black text, transparent secondary buttons with white border/text, and transparent white-bordered inputs.
+- Headers 50, 52, 54, 56, 58, 60, 65, 67, and 69 establish the image-background header families: left, split, and centered shells with text-only, two-button, and email-form action patterns.
+- Image variants consistently use the shared `d50ffb0afa333613e155822dc6b3dfe63f150a74.png` source image with a `40%` black overlay, white text, white primary buttons with black text, transparent secondary buttons with white border/text, and transparent white-bordered inputs.
 - Header action/content patterns now observed: text-only, two-button CTA, email form with terms, centered text-only, centered two-button CTA, centered email form with terms, two-column CTA, two-column email form with terms, and two-column text-only.
 - Do not abstract header primitives yet; the repeated shell and action patterns are becoming clearer, but this pass intentionally remains section-scoped.

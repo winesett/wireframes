@@ -1,0 +1,22 @@
+{
+  "id": "header-60",
+  "category": "header",
+  "variant": "60",
+  "sourceName": "Header / 60 /",
+  "status": "draft",
+  "source": {
+    "route": "/header",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/header.json",
+    "desktopNode": "3:40326",
+    "mobileNode": "26:126450"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/d50ffb0afa333613e155822dc6b3dfe63f150a74.png"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 305.",
+    "mobile": "Source geometry at 375 x 364; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Image split text-only layout stacks at tablet widths to avoid squeezing the source columns."
+  }
+}

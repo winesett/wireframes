@@ -424,3 +424,19 @@
 - `header-70`: dark centered text-only header, source `1440 x 369` desktop and `375 x 316` mobile.
 - `header-66`: dark centered two-button header, source `1440 x 489` desktop and `375 x 424` mobile.
 - `header-68`: dark centered email form header, source `1440 x 523` desktop and `375 x 540` mobile.
+
+## Header Image Background Family / 50-69 / Implementation Notes
+
+- Shared image source treatment: background paint asset `d50ffb0afa333613e155822dc6b3dfe63f150a74.png`, source image `1260 x 709`, `FILL` scale mode, and a black overlay at `40%` opacity.
+- Shared visual chrome: white text over the image overlay, no divider, no section border, and no icons.
+- Image button treatment: primary buttons are white filled with black text; secondary buttons are transparent with a white border and white text.
+- Image form treatment: email inputs are transparent with a white border and white placeholder/text; submit buttons are white filled with black text; terms text is white.
+- `header-54`: image left text-only header, source `1440 x 369` desktop and `375 x 316` mobile.
+- `header-50`: image left two-button header, source `1440 x 489` desktop and `375 x 424` mobile.
+- `header-52`: image left email form header, source `1440 x 523` desktop and `375 x 540` mobile.
+- `header-60`: image split text-only header, source `1440 x 305` desktop and `375 x 364` mobile.
+- `header-56`: image split two-button header, source `1440 x 385` desktop and `375 x 472` mobile.
+- `header-58`: image split email form header, source `1440 x 419` desktop and `375 x 588` mobile.
+- `header-69`: image centered text-only header, source `1440 x 369` desktop and `375 x 316` mobile.
+- `header-65`: image centered two-button header, source `1440 x 489` desktop and `375 x 424` mobile.
+- `header-67`: image centered email form header, source `1440 x 523` desktop and `375 x 540` mobile.

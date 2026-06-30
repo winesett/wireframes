@@ -111,12 +111,12 @@ Stats category human visual QA passed for Stats 1-60 on 2026-06-30. Implementati
 | `stats-58` | `draft` | Centered title with compact bordered-card stat stack and image panel. Checked at `1440`, `1024`, `768`, `390`, and `320`; media loads and source compact card borders and spacing are preserved with no horizontal overflow, item overlap, or hidden text detected. Human visual QA review passed. |
 | `stats-59` | `draft` | Centered title with video panel and compact bordered-card stat stack. Checked at `1440`, `1024`, `768`, `390`, and `320`; media loads and source compact card borders, play treatment, and spacing are preserved with no horizontal overflow, item overlap, or hidden text detected. Human visual QA review passed. |
 | `stats-60` | `draft` | Centered title with compact bordered-card stat stack and video panel. Checked at `1440`, `1024`, `768`, `390`, and `320`; media loads and source compact card borders, play treatment, and spacing are preserved with no horizontal overflow, item overlap, or hidden text detected. Human visual QA review passed. |
-| `logo-1` | `draft` | Centered eleven-logo cloud. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. |
-| `logo-2` | `draft` | Left label plus five-logo row/cloud. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. |
-| `logo-3` | `draft` | Centered heading plus intentionally clipped logo ticker row. Checked at `1440`, `1024`, `768`, `390`, and `320`; ticker clips inside the section without horizontal page overflow. |
-| `logo-4` | `draft` | Split CTA with two-column logo grid. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, button overlap, or hidden text detected. |
-| `logo-5` | `draft` | Left-aligned eleven-logo cloud. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. |
-| `logo-6` | `draft` | Centered sparse six-logo grid. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. |
+| `logo-1` | `draft` | Centered eleven-logo cloud. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. Human visual QA review passed. |
+| `logo-2` | `draft` | Left label plus five-logo row/cloud. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. Human visual QA review passed. |
+| `logo-3` | `draft` | Centered heading plus intentionally clipped logo ticker row. Checked at `1440`, `1024`, `768`, `390`, and `320`; ticker clips inside the section without horizontal page overflow. Human visual QA review passed. |
+| `logo-4` | `draft` | Split CTA with two-column logo grid. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, button overlap, or hidden text detected. Human visual QA review passed. |
+| `logo-5` | `draft` | Left-aligned eleven-logo cloud. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. Human visual QA review passed. |
+| `logo-6` | `draft` | Centered sparse six-logo grid. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. Human visual QA review passed. |
 
 ## Check Artifacts
 

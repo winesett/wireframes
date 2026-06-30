@@ -55,3 +55,5 @@
 - Added `stats-37` through `stats-60` from the saved stats source snapshot. Reused existing Stats CTA/media assets, preserved bordered card chrome, internal divider rules, media/video ordering, and compact-card spacing, kept each section section-scoped with status `draft`, and checked each at `1440`, `1024`, `768`, `390`, and `320`.
 - Recorded human visual QA pass for Stats 1-60. Implementation status remains `draft`; no section HTML/CSS was changed.
 - Saved the Logo route source snapshot and added `logo-1` through `logo-6`. Vendored the required Webflow and Relume SVG logo assets, reused the existing CTA arrow for `logo-4`, kept each section section-scoped with status `draft`, and checked each at `1440`, `1024`, `768`, `390`, and `320`.
+- Fixed Logo review issues in `logo-2`, `logo-3`, `logo-4`, and `logo-6`; reran Logo 1-6 five-width checks with no overflow, missing SVGs, or hidden text.
+- Recorded human visual QA pass for Logo 1-6. Implementation status remains `draft`.

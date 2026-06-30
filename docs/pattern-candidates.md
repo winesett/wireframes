@@ -100,5 +100,5 @@ Observed only. Do not abstract yet.
 
 - Logo 1-6 establish the logo section category with centered clouds, left-label rows, a clipped ticker row, a split CTA/logo-grid variant, and sparse centered grids.
 - Repeated patterns observed: Webflow/Relume SVG logo sizing, heading text treatment, wrapped logo cloud items, two-column mobile wrapping, and one intentional clipped ticker row.
-- Likely future candidates after human review: logo item sizing, brand SVG helper classes, wrapped logo-cloud list, and clipped ticker mechanics for logo rows.
+- Likely future candidates: logo item sizing, brand SVG helper classes, wrapped logo-cloud list, and clipped ticker mechanics for logo rows.
 - Keep section-specific for now: Logo 3 ticker offsets/clipping, Logo 4 split CTA/grid spacing, and per-variant source height anchors.

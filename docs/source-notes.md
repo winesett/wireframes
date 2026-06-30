@@ -484,3 +484,13 @@
 - `stats-23` and `stats-24` use a left-aligned title block plus a tabbed media/stat text layout; desktop source `1440 x 1165`, mobile source `375 x 1355`.
 - New vendored media assets: `b4d0118543bc011744949ebbf871f95430182503.png`, `cfe4ab08e161479b0e2b3e9e722b2e44aa563e96.png`, `848e1738f30774439ba51df3f21500340f1edc98.png`, and `d568b164c26b35eebe6a407c03f478bc8049c84b.png`.
 - Source chrome: Stats 13-22 preserve `1px` stat left rules; Stats 23-24 preserve the active `1px` tab left rule and inactive `2px` tab left rules.
+
+## Stats / 25-36 / Implementation Notes
+
+- Stats 25-28 establish bordered stat-card grid variants with white card fills, black 1px card borders, 32px card padding, and three repeated stat cards.
+- Stats 25 and 27 include tagline/body/CTA variants; Stats 26 and 28 are simpler heading/body or heading-only card-grid variants.
+- Stats 29-30 extend the card-grid family with source image panels inside each stat card, reusing `d568b164c26b35eebe6a407c03f478bc8049c84b.png`.
+- Stats 31-32 use left intro/action content beside two-by-two or two-row bordered stat-card grids with `50%` stat values.
+- Stats 33-36 use centered title blocks with media/stat-card split layouts; Stats 33-34 use image panels, while Stats 35-36 use video-lightbox panels with the existing play treatment.
+- Existing media assets reused: `b4d0118543bc011744949ebbf871f95430182503.png`, `cfe4ab08e161479b0e2b3e9e722b2e44aa563e96.png`, `848e1738f30774439ba51df3f21500340f1edc98.png`, and `d568b164c26b35eebe6a407c03f478bc8049c84b.png`; no new assets were required.
+- Source chrome: Stats 25-36 preserve the card borders, 32px card padding, stat text spacing inside each card, media order, and mobile stack order from the source.

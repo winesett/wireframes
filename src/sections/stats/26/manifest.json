@@ -1,0 +1,28 @@
+{
+  "id": "stats-26",
+  "category": "stats",
+  "variant": "Stats / 26 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:238604",
+    "desktop": {
+      "width": 1440,
+      "height": 739
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1316
+    }
+  },
+  "classification": {
+    "shellFamily": "split-intro-card-grid",
+    "contentPattern": "bordered stat-card grid",
+    "assetNeeds": "none"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "stack card grids and media/stat layouts before compression becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

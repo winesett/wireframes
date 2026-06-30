@@ -1,0 +1,262 @@
+.stats-33 {
+  display: flex;
+  width: 100%;
+  min-height: clamp(1234px, calc(1302px - (100vw - 375px) * 0.06384976525821597), 1302px);
+  align-items: center;
+  justify-content: center;
+  overflow-x: clip;
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: clamp(64px, calc(64px + (100vw - 375px) * 0.0451), 112px)
+    clamp(var(--mobile-page-padding), 4.445vw, var(--desktop-page-padding));
+}
+
+.stats-33__frame {
+  display: flex;
+  width: min(100%, var(--section-max-width));
+}
+
+.stats-33__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: clamp(48px, calc(48px + (100vw - 375px) * 0.0301), 80px);
+}
+
+.stats-33__intro,
+.stats-33__title,
+.stats-33__copy,
+.stats-33__side-copy,
+.stats-33__stat,
+.stats-33__stat-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-33__intro {
+  width: min(100%, 768px);
+  align-self: center;
+  text-align: center;
+}
+
+.stats-33__title {
+  gap: clamp(12px, calc(12px + (100vw - 375px) * 0.0038), 16px);
+}
+
+.stats-33__copy {
+  gap: clamp(20px, calc(20px + (100vw - 375px) * 0.0038), 24px);
+}
+
+.stats-33__side-copy {
+  gap: 32px;
+}
+
+.stats-33__tagline,
+.stats-33__heading,
+.stats-33__text,
+.stats-33__stats,
+.stats-33__number,
+.stats-33__label,
+.stats-33__description {
+  margin: 0;
+  color: currentColor;
+  letter-spacing: 0;
+}
+
+.stats-33__tagline {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.stats-33__heading {
+  font-size: clamp(36px, calc(36px + (100vw - 375px) * 0.011267605633802818), 48px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stats-33__text {
+  font-size: clamp(16px, calc(16px + (100vw - 375px) * 0.00188), 18px);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.stats-33__content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: minmax(0, 1fr) 371px;
+  gap: 32px;
+  align-items: stretch;
+}
+
+.stats-33__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.stats-33__stat {
+  min-width: 0;
+  min-height: 239px;
+  justify-content: flex-start;
+  gap: 24px;
+  border: 1px solid currentColor;
+  background: var(--color-white);
+  padding: 32px;
+}
+
+.stats-33__stat--tall {
+  min-height: 602px;
+}
+
+.stats-33__number {
+  font-size: clamp(40px, calc(40px + (100vw - 375px) * 0.015023474178403756), 56px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stats-33__stat-copy {
+  margin: 0;
+  gap: 8px;
+}
+
+.stats-33__label {
+  font-size: clamp(18px, calc(18px + (100vw - 375px) * 0.00188), 20px);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.stats-33__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.stats-33__media {
+  position: relative;
+  display: flex;
+  min-height: 781px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: url("../../../../source/figma-site/assets/b4d0118543bc011744949ebbf871f95430182503.png") center / cover no-repeat;
+}
+
+.stats-33__media--video::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.stats-33__play {
+  position: relative;
+  z-index: 1;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--color-white);
+}
+
+.stats-33__play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 17px solid var(--color-black);
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1100px) {
+  .stats-33__content,
+  .stats-33__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .stats-33__stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-33__media {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-33 {
+    min-height: 1302px;
+    padding: 64px 0;
+  }
+
+  .stats-33__frame {
+    width: min(100%, 375px);
+    padding-inline: var(--mobile-page-padding);
+  }
+
+  .stats-33__container,
+  .stats-33__content {
+    gap: 48px;
+  }
+
+  .stats-33__intro {
+    gap: 24px;
+  }
+
+  .stats-33__title {
+    gap: 12px;
+  }
+
+  .stats-33__side-copy {
+    gap: 24px;
+  }
+
+  .stats-33__copy {
+    gap: 20px;
+  }
+
+  .stats-33__heading {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  .stats-33__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .stats-33__stats,
+  .stats-33__stat-column {
+    gap: 24px;
+  }
+
+  .stats-33__stat,
+  .stats-33__stat--tall {
+    min-height: 213px;
+    gap: 20px;
+  }
+
+  .stats-33__stat-image {
+    min-height: 225px;
+  }
+
+  .stats-33__media {
+    min-height: 225px;
+    
+  }
+
+  .stats-33__number {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .stats-33__label {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}

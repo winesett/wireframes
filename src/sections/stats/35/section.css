@@ -1,0 +1,262 @@
+.stats-35 {
+  display: flex;
+  width: 100%;
+  min-height: clamp(1234px, calc(1302px - (100vw - 375px) * 0.06384976525821597), 1302px);
+  align-items: center;
+  justify-content: center;
+  overflow-x: clip;
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: clamp(64px, calc(64px + (100vw - 375px) * 0.0451), 112px)
+    clamp(var(--mobile-page-padding), 4.445vw, var(--desktop-page-padding));
+}
+
+.stats-35__frame {
+  display: flex;
+  width: min(100%, var(--section-max-width));
+}
+
+.stats-35__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: clamp(48px, calc(48px + (100vw - 375px) * 0.0301), 80px);
+}
+
+.stats-35__intro,
+.stats-35__title,
+.stats-35__copy,
+.stats-35__side-copy,
+.stats-35__stat,
+.stats-35__stat-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-35__intro {
+  width: min(100%, 768px);
+  align-self: center;
+  text-align: center;
+}
+
+.stats-35__title {
+  gap: clamp(12px, calc(12px + (100vw - 375px) * 0.0038), 16px);
+}
+
+.stats-35__copy {
+  gap: clamp(20px, calc(20px + (100vw - 375px) * 0.0038), 24px);
+}
+
+.stats-35__side-copy {
+  gap: 32px;
+}
+
+.stats-35__tagline,
+.stats-35__heading,
+.stats-35__text,
+.stats-35__stats,
+.stats-35__number,
+.stats-35__label,
+.stats-35__description {
+  margin: 0;
+  color: currentColor;
+  letter-spacing: 0;
+}
+
+.stats-35__tagline {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.stats-35__heading {
+  font-size: clamp(36px, calc(36px + (100vw - 375px) * 0.011267605633802818), 48px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stats-35__text {
+  font-size: clamp(16px, calc(16px + (100vw - 375px) * 0.00188), 18px);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.stats-35__content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: minmax(0, 1fr) 371px;
+  gap: 32px;
+  align-items: stretch;
+}
+
+.stats-35__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.stats-35__stat {
+  min-width: 0;
+  min-height: 239px;
+  justify-content: flex-start;
+  gap: 24px;
+  border: 1px solid currentColor;
+  background: var(--color-white);
+  padding: 32px;
+}
+
+.stats-35__stat--tall {
+  min-height: 602px;
+}
+
+.stats-35__number {
+  font-size: clamp(40px, calc(40px + (100vw - 375px) * 0.015023474178403756), 56px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stats-35__stat-copy {
+  margin: 0;
+  gap: 8px;
+}
+
+.stats-35__label {
+  font-size: clamp(18px, calc(18px + (100vw - 375px) * 0.00188), 20px);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.stats-35__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.stats-35__media {
+  position: relative;
+  display: flex;
+  min-height: 781px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: url("../../../../source/figma-site/assets/cfe4ab08e161479b0e2b3e9e722b2e44aa563e96.png") center / cover no-repeat;
+}
+
+.stats-35__media--video::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.stats-35__play {
+  position: relative;
+  z-index: 1;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--color-white);
+}
+
+.stats-35__play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 17px solid var(--color-black);
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1100px) {
+  .stats-35__content,
+  .stats-35__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .stats-35__stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-35__media {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-35 {
+    min-height: 1302px;
+    padding: 64px 0;
+  }
+
+  .stats-35__frame {
+    width: min(100%, 375px);
+    padding-inline: var(--mobile-page-padding);
+  }
+
+  .stats-35__container,
+  .stats-35__content {
+    gap: 48px;
+  }
+
+  .stats-35__intro {
+    gap: 24px;
+  }
+
+  .stats-35__title {
+    gap: 12px;
+  }
+
+  .stats-35__side-copy {
+    gap: 24px;
+  }
+
+  .stats-35__copy {
+    gap: 20px;
+  }
+
+  .stats-35__heading {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  .stats-35__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .stats-35__stats,
+  .stats-35__stat-column {
+    gap: 24px;
+  }
+
+  .stats-35__stat,
+  .stats-35__stat--tall {
+    min-height: 213px;
+    gap: 20px;
+  }
+
+  .stats-35__stat-image {
+    min-height: 225px;
+  }
+
+  .stats-35__media {
+    min-height: 225px;
+    background-image: url("../../../../source/figma-site/assets/848e1738f30774439ba51df3f21500340f1edc98.png");
+  }
+
+  .stats-35__number {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .stats-35__label {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}

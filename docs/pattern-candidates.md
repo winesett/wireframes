@@ -81,3 +81,10 @@ Observed only. Do not abstract yet.
 - Image variants consistently use the shared `d50ffb0afa333613e155822dc6b3dfe63f150a74.png` source image with a `40%` black overlay, white text, white primary buttons with black text, transparent secondary buttons with white border/text, and transparent white-bordered inputs.
 - Header action/content patterns now observed: text-only, two-button CTA, email form with terms, centered text-only, centered two-button CTA, centered email form with terms, two-column CTA, two-column email form with terms, and two-column text-only.
 - Do not abstract header primitives yet; the repeated shell and action patterns are becoming clearer, but this pass intentionally remains section-scoped.
+
+## Stats Category
+
+- Stats 1-6 establish a simple horizontal stat-row mini-family with light, image-overlay, and dark shells.
+- Repeated patterns observed: `1280px` centered desktop container, `375px` mobile frame, two-column intro that stacks on tablet/mobile, three repeated stat items, shared stat number/label typography, and two CTA variants with outline button plus text-link arrow.
+- Likely future candidates: stats section shell, stat list/item, stat number/label pair, CTA button/link pair, dark theme modifier, and image-overlay treatment.
+- Keep section-specific for now: source height anchors, image crop/overlay placement, CTA presence, heading scale differences between the tagline/action and heading-only variants, and exact responsive stacking thresholds.

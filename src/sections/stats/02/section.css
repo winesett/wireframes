@@ -1,0 +1,131 @@
+.stats-02 {
+  --stats-text: var(--color-black);
+  display: flex;
+  width: 100%;
+  min-height: clamp(579px, calc(884px - (100vw - 375px) * 0.2864), 884px);
+  align-items: center;
+  justify-content: center;
+  overflow-x: clip;
+  background: var(--color-white);
+  color: var(--stats-text);
+  padding: clamp(64px, calc(64px + (100vw - 375px) * 0.0451), 112px)
+    clamp(var(--mobile-page-padding), 4.445vw, var(--desktop-page-padding));
+}
+
+.stats-02__frame {
+  display: flex;
+  width: min(100%, var(--section-max-width));
+}
+
+.stats-02__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: clamp(48px, calc(48px + (100vw - 375px) * 0.0301), 80px);
+}
+
+.stats-02__content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(20px, calc(20px + (100vw - 375px) * 0.0563), 80px);
+}
+
+.stats-02__heading,
+.stats-02__text,
+.stats-02__stats,
+.stats-02__number,
+.stats-02__label {
+  margin: 0;
+  color: currentColor;
+  letter-spacing: 0;
+}
+
+.stats-02__heading {
+  font-size: clamp(32px, calc(32px + (100vw - 375px) * 0.0075), 40px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stats-02__text {
+  font-size: clamp(16px, calc(16px + (100vw - 375px) * 0.00188), 18px);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.stats-02__stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(32px, calc(32px + (100vw - 375px) * 0.015), 48px);
+}
+
+.stats-02__stat {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 8px;
+  border-left: 1px solid currentColor;
+  padding-left: 32px;
+}
+
+.stats-02__number {
+  font-size: clamp(56px, calc(56px + (100vw - 375px) * 0.0225), 80px);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.stats-02__label {
+  font-size: clamp(18px, calc(18px + (100vw - 375px) * 0.00188), 20px);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .stats-02__content,
+  .stats-02__stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-02 {
+    min-height: 884px;
+    padding: 64px 0;
+  }
+
+  .stats-02__frame {
+    width: min(100%, 375px);
+    padding-inline: var(--mobile-page-padding);
+  }
+
+  .stats-02__container {
+    gap: 48px;
+  }
+
+  .stats-02__content {
+    gap: 20px;
+  }
+
+  .stats-02__heading {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+
+  .stats-02__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .stats-02__stats {
+    gap: 32px;
+  }
+
+  .stats-02__number {
+    font-size: 56px;
+    line-height: 72.8px;
+  }
+
+  .stats-02__label {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}

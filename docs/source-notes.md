@@ -14,6 +14,7 @@
 
 - Banner folders are zero-padded for `01` through `09` and unpadded for `10` through `16`.
 - Stable section ids are unpadded: `banner-1` through `banner-16`.
+- Stats folders are zero-padded for `01` through `06`; stable section ids are unpadded: `stats-1` through `stats-6`.
 
 ## Banner / 1 / Source Report
 
@@ -440,3 +441,20 @@
 - `header-69`: image centered text-only header, source `1440 x 369` desktop and `375 x 316` mobile.
 - `header-65`: image centered two-button header, source `1440 x 489` desktop and `375 x 424` mobile.
 - `header-67`: image centered email form header, source `1440 x 523` desktop and `375 x 540` mobile.
+
+## Stats / 1-6 / Implementation Notes
+
+- Route JSON saved: `source/figma-site/raw-json/stats.json`
+- Shared family: simple horizontal stat-row sections with three repeated stats, desktop `1280px` container, `80px` content/stat gap, mobile `375px` source frame, and vertical mobile stat stack.
+- Shared stat content: number `30%`; label `Short heading goes here`; repeated three times.
+- Shared body copy: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.`
+- Shared stat chrome: each stat item has a source `1px` left stroke and `32px` left padding; light variants use black rules, image/dark variants use white rules.
+- Shared mobile stat geometry: `335px` stat stack, `32px` gap, number `56/72.8`, label `18/25.2`.
+- CTA variants use a `96 x 48` outline button plus an `80 x 24` text link with trailing arrow asset `0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg`.
+- Image-overlay variants reuse the existing source background image `d50ffb0afa333613e155822dc6b3dfe63f150a74.png` with a `40%` black overlay.
+- `stats-1`: light two-column intro with tagline, `48/57.6` desktop heading, body copy, CTA row, and three-stat row; source `1440 x 659` desktop and `375 x 1007` mobile.
+- `stats-2`: light two-column heading/body intro with no CTA; source `1440 x 579` desktop and `375 x 884` mobile; desktop heading `40/48`.
+- `stats-3`: image-overlay version of `stats-1`; source `1440 x 659` desktop and `375 x 1007` mobile.
+- `stats-4`: image-overlay version of `stats-2`; source `1440 x 579` desktop and `375 x 884` mobile.
+- `stats-5`: dark `#444` version of `stats-1`; source `1440 x 659` desktop and `375 x 1007` mobile.
+- `stats-6`: dark `#444` version of `stats-2`; source `1440 x 579` desktop and `375 x 884` mobile.

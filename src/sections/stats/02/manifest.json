@@ -1,0 +1,20 @@
+{
+  "id": "stats-2",
+  "category": "stats",
+  "variant": "2",
+  "sourceName": "Stats / 2 /",
+  "status": "draft",
+  "source": {
+    "route": "/stats",
+    "json": "../../../../source/figma-site/raw-json/stats.json",
+    "componentSetNode": "5:237560",
+    "desktopNode": "5:237561",
+    "mobileNode": "5:237578"
+  },
+  "assets": [],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 579.",
+    "mobile": "Source geometry at 375 x 884; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Fluid two-column intro compresses at wide tablet widths, then stacks before the stat row becomes cramped."
+  }
+}

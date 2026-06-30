@@ -49,6 +49,12 @@ Header category human visual QA passed for Headers 44-70 on 2026-06-30. Implemen
 | `header-68` | `draft` | Dark centered email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA review passed. |
 | `header-69` | `draft` | Image centered text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; background image loads, overlay renders, and no horizontal overflow or hidden text was detected. Human visual QA review passed. |
 | `header-70` | `draft` | Dark centered text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA review passed. |
+| `stats-1` | `draft` | Light stat row with tagline, body copy, CTA button/link, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, button overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-2` | `draft` | Light stat row with heading/body copy, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-3` | `draft` | Image-overlay stat row with tagline, body copy, CTA button/link, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; image loads, overlay renders, and no horizontal overflow, stat overlap, button overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-4` | `draft` | Image-overlay stat row with heading/body copy, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; image loads, overlay renders, and no horizontal overflow, stat overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-5` | `draft` | Dark stat row with tagline, body copy, CTA button/link, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, button overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-6` | `draft` | Dark stat row with heading/body copy, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, or hidden text detected. Needs human visual QA review. |
 
 ## Check Artifacts
 

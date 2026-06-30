@@ -60,3 +60,4 @@
 - Saved the FAQ route source snapshot and added `faq-1` through `faq-14` in gated batches `1-4`, `5-8`, and `9-14`. Vendored the required accordion-toggle and icon-grid SVG assets, preserved divider/card/icon source chrome, kept each section section-scoped with status `draft`, and checked each at `1440`, `1024`, `768`, `390`, and `320`.
 - Fixed FAQ accordion toggle asset mapping for `faq-1`, `faq-2`, `faq-3`, and `faq-10` so divider accordion variants use the source chevron assets instead of the X toggle asset.
 - Recorded human visual QA pass for FAQ 1-14. Implementation status remains `draft`.
+- Added a docs-only category status table and lightweight Node validation scripts for built category files, catalog integrity, category-local shared CSS links, and combined library health. No section implementation files, catalog previews, tokens, or primitives were changed.

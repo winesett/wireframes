@@ -1,0 +1,66 @@
+.header-tagline,
+.header-heading,
+.header-text,
+.header-terms {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+.header-tagline {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.header-heading {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header-text {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.header-terms {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.header-actions {
+  max-width: 100%;
+}
+
+.header-button,
+.header-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.header-button {
+  text-decoration: none;
+}
+
+.header-form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.header-input {
+  min-width: 0;
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}

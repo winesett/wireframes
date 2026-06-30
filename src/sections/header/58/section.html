@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="./section.css">
   </head>
   <body>
-    <header class="header-58" id="header-58" aria-labelledby="header-58-heading">
+    <header class="header-58" id="header-58" aria-labelledby="header-58-heading" data-pattern="email-signup">
       <div class="header-58__frame">
         <div class="header-58__layout">
           <div class="header-58__intro">
-            <p class="header-58__tagline">Tagline</p>
-            <h1 class="header-58__heading" id="header-58-heading">Short heading here</h1>
+            <p class="header-58__tagline header-tagline" data-slot="eyebrow">Tagline</p>
+            <h1 class="header-58__heading header-heading" id="header-58-heading" data-slot="heading">Short heading here</h1>
           </div>
           <div class="header-58__content">
-            <p class="header-58__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+            <p class="header-58__text header-text" data-slot="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
             <form class="header-58__actions">
-              <div class="header-58__form-row">
+              <div class="header-58__form-row header-form-row">
                 <label class="sr-only" for="header-58-email">Email address</label>
-                <input class="header-58__input" id="header-58-email" type="email" placeholder="Enter your email">
-                <button class="header-58__submit" type="submit">Sign Up</button>
+                <input class="header-58__input header-input" id="header-58-email" type="email" placeholder="Enter your email" data-slot="email">
+                <button class="header-58__submit header-submit header-button header-button--primary" type="submit" data-slot="submit">Sign Up</button>
               </div>
-              <p class="header-58__terms">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
+              <p class="header-58__terms header-terms" data-slot="terms">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
             </form>
           </div>
         </div>

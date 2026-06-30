@@ -9,23 +9,23 @@
     <link rel="stylesheet" href="./section.css">
   </head>
   <body>
-    <header class="header-52" id="header-52" aria-labelledby="header-52-heading">
+    <header class="header-52" id="header-52" aria-labelledby="header-52-heading" data-pattern="email-signup">
       <div class="header-52__frame">
         <div class="header-52__content">
           <div class="header-52__title">
-            <p class="header-52__tagline">Tagline</p>
+            <p class="header-52__tagline header-tagline" data-slot="eyebrow">Tagline</p>
             <div class="header-52__copy">
-              <h1 class="header-52__heading" id="header-52-heading">Short heading here</h1>
-              <p class="header-52__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <h1 class="header-52__heading header-heading" id="header-52-heading" data-slot="heading">Short heading here</h1>
+              <p class="header-52__text header-text" data-slot="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
             </div>
           </div>
           <form class="header-52__actions">
-            <div class="header-52__form-row">
+            <div class="header-52__form-row header-form-row">
               <label class="sr-only" for="header-52-email">Email address</label>
-              <input class="header-52__input" id="header-52-email" type="email" placeholder="Enter your email">
-              <button class="header-52__submit" type="submit">Sign Up</button>
+              <input class="header-52__input header-input" id="header-52-email" type="email" placeholder="Enter your email" data-slot="email">
+              <button class="header-52__submit header-submit header-button header-button--primary" type="submit" data-slot="submit">Sign Up</button>
             </div>
-            <p class="header-52__terms">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
+            <p class="header-52__terms header-terms" data-slot="terms">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
           </form>
         </div>
       </div>

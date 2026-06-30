@@ -9,23 +9,23 @@
     <link rel="stylesheet" href="./section.css">
   </head>
   <body>
-    <header class="header-48" id="header-48" aria-labelledby="header-48-heading">
+    <header class="header-48" id="header-48" aria-labelledby="header-48-heading" data-pattern="email-signup">
       <div class="header-48__frame">
         <div class="header-48__container">
           <div class="header-48__layout">
             <div class="header-48__intro">
-              <p class="header-48__tagline">Tagline</p>
-              <h1 class="header-48__heading" id="header-48-heading">Short heading here</h1>
+              <p class="header-48__tagline header-tagline" data-slot="eyebrow">Tagline</p>
+              <h1 class="header-48__heading header-heading" id="header-48-heading" data-slot="heading">Short heading here</h1>
             </div>
             <div class="header-48__content">
-              <p class="header-48__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+              <p class="header-48__text header-text" data-slot="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
               <form class="header-48__actions">
-                <div class="header-48__form-row">
+                <div class="header-48__form-row header-form-row">
                   <label class="sr-only" for="header-48-email">Email address</label>
-                  <input class="header-48__input" id="header-48-email" type="email" placeholder="Enter your email">
-                  <button class="header-48__submit" type="submit">Sign Up</button>
+                  <input class="header-48__input header-input" id="header-48-email" type="email" placeholder="Enter your email" data-slot="email">
+                  <button class="header-48__submit header-submit header-button header-button--primary" type="submit" data-slot="submit">Sign Up</button>
                 </div>
-                <p class="header-48__terms">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
+                <p class="header-48__terms header-terms" data-slot="terms">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
               </form>
             </div>
           </div>

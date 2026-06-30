@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="./section.css">
   </head>
   <body>
-    <header class="header-66" id="header-66" aria-labelledby="header-66-heading">
+    <header class="header-66" id="header-66" aria-labelledby="header-66-heading" data-pattern="two-button-action">
       <div class="header-66__frame">
         <div class="header-66__content">
           <div class="header-66__title">
-            <p class="header-66__tagline">Tagline</p>
+            <p class="header-66__tagline header-tagline" data-slot="eyebrow">Tagline</p>
             <div class="header-66__copy">
-              <h1 class="header-66__heading" id="header-66-heading">Short heading here</h1>
-              <p class="header-66__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <h1 class="header-66__heading header-heading" id="header-66-heading" data-slot="heading">Short heading here</h1>
+              <p class="header-66__text header-text" data-slot="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
             </div>
           </div>
           <div class="header-66__actions" aria-label="Header actions">
-            <a class="header-66__button header-66__button--primary" href="#">Button</a>
-            <a class="header-66__button header-66__button--secondary" href="#">Button</a>
+            <a class="header-66__button header-66__button--primary header-button header-button--primary" href="#" data-slot="primary-action">Button</a>
+            <a class="header-66__button header-66__button--secondary header-button header-button--secondary" href="#" data-slot="secondary-action">Button</a>
           </div>
         </div>
       </div>

@@ -9,24 +9,24 @@
     <link rel="stylesheet" href="./section.css">
   </head>
   <body>
-    <header class="header-63" id="header-63" aria-labelledby="header-63-heading">
+    <header class="header-63" id="header-63" aria-labelledby="header-63-heading" data-pattern="email-signup">
       <div class="header-63__frame">
         <div class="header-63__container">
           <div class="header-63__content">
             <div class="header-63__title">
-              <p class="header-63__tagline">Tagline</p>
+              <p class="header-63__tagline header-tagline" data-slot="eyebrow">Tagline</p>
               <div class="header-63__copy">
-                <h1 class="header-63__heading" id="header-63-heading">Short heading here</h1>
-                <p class="header-63__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <h1 class="header-63__heading header-heading" id="header-63-heading" data-slot="heading">Short heading here</h1>
+                <p class="header-63__text header-text" data-slot="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
               </div>
             </div>
             <form class="header-63__actions">
-              <div class="header-63__form-row">
+              <div class="header-63__form-row header-form-row">
                 <label class="sr-only" for="header-63-email">Email address</label>
-                <input class="header-63__input" id="header-63-email" type="email" placeholder="Enter your email">
-                <button class="header-63__submit" type="submit">Sign Up</button>
+                <input class="header-63__input header-input" id="header-63-email" type="email" placeholder="Enter your email" data-slot="email">
+                <button class="header-63__submit header-submit header-button header-button--primary" type="submit" data-slot="submit">Sign Up</button>
               </div>
-              <p class="header-63__terms">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
+              <p class="header-63__terms header-terms" data-slot="terms">By clicking Sign Up you're confirming that you agree with our Terms and Conditions.</p>
             </form>
           </div>
         </div>

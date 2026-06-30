@@ -1,0 +1,38 @@
+/* Category-local FAQ basics only. Section CSS remains the source of geometry. */
+.faq-section,
+.faq-section *,
+.faq-section *::before,
+.faq-section *::after {
+  box-sizing: border-box;
+}
+
+.faq-heading,
+.faq-title,
+.faq-text,
+.faq-question,
+.faq-answer {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+.faq-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-button,
+.faq-link {
+  font: inherit;
+  color: inherit;
+}
+
+.faq-button {
+  text-decoration: none;
+}
+
+.faq-toggle,
+.faq-icon {
+  display: block;
+  flex: 0 0 auto;
+}

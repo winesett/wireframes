@@ -118,6 +118,21 @@ Stats category human visual QA passed for Stats 1-60 on 2026-06-30. Implementati
 | `logo-5` | `draft` | Left-aligned eleven-logo cloud. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. Human visual QA review passed. |
 | `logo-6` | `draft` | Centered sparse six-logo grid. Checked at `1440`, `1024`, `768`, `390`, and `320`; SVG assets load and no horizontal overflow, logo overlap, or hidden text detected. Human visual QA review passed. |
 
+| `faq-1` | `draft` | Centered plain divider accordion FAQ. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-2` | `draft` | Left full-width plain divider accordion FAQ. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-3` | `draft` | Split intro plus plain divider accordion FAQ. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-4` | `draft` | Centered bordered accordion-card FAQ. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-5` | `draft` | Left full-width bordered accordion-card FAQ. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-6` | `draft` | Split intro plus bordered accordion-card FAQ. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-7` | `draft` | Centered static FAQ list. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-8` | `draft` | Split intro plus static FAQ list. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-9` | `draft` | Full-width divider-row FAQ with question/answer columns. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-10` | `draft` | Centered two-column plain accordion FAQ. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-11` | `draft` | Centered mixed two-column accordion/card FAQ. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-12` | `draft` | Two-column static FAQ grid. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-13` | `draft` | Three-column static FAQ grid. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+| `faq-14` | `draft` | Icon-led FAQ grid. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, missing assets, or item/CTA overlap detected. |
+
 ## Check Artifacts
 
 - Source desktop screenshot: `source/figma-site/screenshots/banner-source-1440.png`

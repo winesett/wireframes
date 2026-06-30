@@ -57,3 +57,4 @@
 - Saved the Logo route source snapshot and added `logo-1` through `logo-6`. Vendored the required Webflow and Relume SVG logo assets, reused the existing CTA arrow for `logo-4`, kept each section section-scoped with status `draft`, and checked each at `1440`, `1024`, `768`, `390`, and `320`.
 - Fixed Logo review issues in `logo-2`, `logo-3`, `logo-4`, and `logo-6`; reran Logo 1-6 five-width checks with no overflow, missing SVGs, or hidden text.
 - Recorded human visual QA pass for Logo 1-6. Implementation status remains `draft`.
+- Saved the FAQ route source snapshot and added `faq-1` through `faq-14` in gated batches `1-4`, `5-8`, and `9-14`. Vendored the required accordion-toggle and icon-grid SVG assets, preserved divider/card/icon source chrome, kept each section section-scoped with status `draft`, and checked each at `1440`, `1024`, `768`, `390`, and `320`.

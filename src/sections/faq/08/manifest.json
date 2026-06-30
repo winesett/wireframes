@@ -1,0 +1,28 @@
+{
+  "id": "faq-8",
+  "category": "faq",
+  "variant": "FAQ / 8 /",
+  "source": {
+    "route": "faq",
+    "nodeId": "5:1844",
+    "desktop": {
+      "width": 1440,
+      "height": 1111
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1683
+    }
+  },
+  "classification": {
+    "shellFamily": "split static FAQ list",
+    "contentPattern": "left intro/CTA with right static question and answer list",
+    "assetNeeds": "none"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "FAQ content compresses fluidly before stacking to the mobile anchor",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

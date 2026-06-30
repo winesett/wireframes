@@ -1,0 +1,28 @@
+{
+  "id": "faq-9",
+  "category": "faq",
+  "variant": "FAQ / 9 /",
+  "source": {
+    "route": "faq",
+    "nodeId": "5:1925",
+    "desktop": {
+      "width": 1440,
+      "height": 1529
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1942
+    }
+  },
+  "classification": {
+    "shellFamily": "full-width divider row FAQ",
+    "contentPattern": "left title, five horizontal divider rows with question and answer columns, contact CTA",
+    "assetNeeds": "none"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "FAQ content compresses fluidly before stacking to the mobile anchor",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

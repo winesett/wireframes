@@ -1,0 +1,28 @@
+{
+  "id": "faq-14",
+  "category": "faq",
+  "variant": "FAQ / 14 /",
+  "source": {
+    "route": "faq",
+    "nodeId": "5:2737",
+    "desktop": {
+      "width": 1440,
+      "height": 1163
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1962
+    }
+  },
+  "classification": {
+    "shellFamily": "centered icon FAQ grid",
+    "contentPattern": "centered title, six icon-led FAQ blocks in a three-column grid, contact CTA",
+    "assetNeeds": "FAQ question icon SVG asset"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "FAQ content compresses fluidly before stacking to the mobile anchor",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

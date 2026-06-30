@@ -1,0 +1,223 @@
+.faq-12 {
+  display: flex;
+  width: 100%;
+  min-height: 1425px;
+  align-items: center;
+  justify-content: center;
+  overflow-x: clip;
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: clamp(64px, calc(64px + (100vw - 375px) * 0.0451), 112px)
+    clamp(var(--mobile-page-padding), 4.445vw, var(--desktop-page-padding));
+}
+
+.faq-12 *,
+.faq-12 *::before,
+.faq-12 *::after {
+  box-sizing: border-box;
+}
+
+.faq-12__frame {
+  width: min(100%, var(--section-max-width));
+}
+
+.faq-12__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(48px, calc(48px + (100vw - 375px) * 0.0301), 80px);
+}
+
+.faq-12__intro {
+  display: flex;
+  width: min(100%, 768px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: left;
+}
+
+.faq-12__heading,
+.faq-12__text,
+.faq-12__question,
+.faq-12__answer,
+.faq-12__cta-heading,
+.faq-12__cta-text {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+.faq-12__heading {
+  font-size: clamp(36px, calc(36px + (100vw - 375px) * 0.0113), 48px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.faq-12__text,
+.faq-12__cta-text {
+  font-size: clamp(16px, calc(16px + (100vw - 375px) * 0.0019), 18px);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.faq-12__grid {
+  display: grid;
+  width: 100%;
+  gap: clamp(40px, calc(40px + (100vw - 375px) * 0.0225), 64px) clamp(32px, 3.34vw, 48px);
+}
+
+.faq-12__grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.faq-12__grid--three,
+.faq-12__grid--icons {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.faq-12__item {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-12__question-row {
+  display: flex;
+  min-height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 20px 0;
+}
+
+.faq-12__question {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.faq-12__answer {
+  max-width: 100%;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.faq-12__toggle {
+  display: block;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+}
+
+.faq-12__icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.faq-12__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-12__cta {
+  display: flex;
+  width: min(100%, 560px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+}
+
+.faq-12__cta-heading {
+  font-size: clamp(24px, calc(24px + (100vw - 375px) * 0.0075), 32px);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.faq-12__button {
+  display: inline-flex;
+  min-width: 104px;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  border: 1px solid var(--color-black);
+  background: var(--color-white);
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .faq-12__columns,
+  .faq-12__grid--two,
+  .faq-12__grid--three,
+  .faq-12__grid--icons {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-12__row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-12 {
+    min-height: 2682px;
+    padding: 64px 0;
+  }
+
+  .faq-12__frame {
+    width: min(100%, 375px);
+    padding-inline: var(--mobile-page-padding);
+  }
+
+  .faq-12__container {
+    gap: 48px;
+  }
+
+  .faq-12__intro,
+  .faq-12__cta {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .faq-12__columns,
+  .faq-12__grid {
+    gap: 40px;
+  }
+
+  .faq-12__question-row {
+    min-height: 64px;
+    padding: 20px 0;
+  }
+
+  .faq-12__item--row .faq-12__question-row {
+    padding-inline: 0;
+  }
+
+  .faq-12__answer,
+  .faq-12__item .faq-12__answer,
+  .faq-12__item--row .faq-12__answer {
+    padding: 0;
+  }
+
+  .faq-12__item--row .faq-12__answer {
+    padding: 0 0 20px;
+  }
+
+  .faq-12__question {
+    font-size: 18px;
+  }
+}

@@ -102,3 +102,15 @@ Observed only. Do not abstract yet.
 - Repeated patterns observed: Webflow/Relume SVG logo sizing, heading text treatment, wrapped logo cloud items, two-column mobile wrapping, and one intentional clipped ticker row.
 - Likely future candidates: logo item sizing, brand SVG helper classes, wrapped logo-cloud list, and clipped ticker mechanics for logo rows.
 - Keep section-specific for now: Logo 3 ticker offsets/clipping, Logo 4 split CTA/grid spacing, and per-variant source height anchors.
+
+## FAQ Category
+
+- FAQ 1-3 establish the plain divider accordion family: centered, full-width left-aligned, and split intro variants.
+- FAQ 4-6 establish the bordered accordion-card family across centered, full-width left-aligned, and split intro variants.
+- FAQ 7-8 establish static FAQ list variants without accordion toggle chrome.
+- FAQ 9 establishes the full-width divider-row family with desktop question/answer columns and mobile vertical rows.
+- FAQ 10-11 establish larger two-column accordion families; mobile stacks into tall source-anchored layouts.
+- FAQ 12-13 establish static two-column and three-column FAQ grids.
+- FAQ 14 establishes an icon-led FAQ grid using a source SVG icon.
+- Repeated candidates: FAQ section shell, title block, CTA block, accordion item, toggle icon, bordered card item, static FAQ item, divider row, and icon FAQ block.
+- Keep section-specific for now: source heights, two-column mobile stacking, mixed FAQ 11 card/row treatment, FAQ 9 row rhythm, and exact grid column counts.

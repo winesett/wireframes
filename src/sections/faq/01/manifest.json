@@ -1,0 +1,28 @@
+{
+  "id": "faq-1",
+  "category": "faq",
+  "variant": "FAQ / 1 /",
+  "source": {
+    "route": "faq",
+    "nodeId": "5:1032",
+    "desktop": {
+      "width": 1440,
+      "height": 1517
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1902
+    }
+  },
+  "classification": {
+    "shellFamily": "centered plain accordion",
+    "contentPattern": "centered title, five divider accordion rows, contact CTA",
+    "assetNeeds": "FAQ plus SVG asset"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "accordion/list layout compresses fluidly before stacking to the mobile anchor",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "faq-12",
+  "category": "faq",
+  "variant": "FAQ / 12 /",
+  "source": {
+    "route": "faq",
+    "nodeId": "5:2433",
+    "desktop": {
+      "width": 1440,
+      "height": 1425
+    },
+    "mobile": {
+      "width": 375,
+      "height": 2682
+    }
+  },
+  "classification": {
+    "shellFamily": "full-width two-column static FAQ grid",
+    "contentPattern": "left title, eight static FAQ items in a two-column grid, contact CTA",
+    "assetNeeds": "none"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "FAQ content compresses fluidly before stacking to the mobile anchor",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

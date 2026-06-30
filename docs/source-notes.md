@@ -516,3 +516,24 @@
 - `logo-4`: split CTA and two-column logo grid; source `1440 x 584` desktop and `375 x 829` mobile.
 - `logo-5`: left-aligned heading plus eleven-logo cloud; source `1440 x 387` desktop and `375 x 616` mobile.
 - `logo-6`: centered heading plus sparse six-logo grid; source `1440 x 411` desktop and `375 x 420` mobile.
+
+## FAQ / 1-14 / Implementation Notes
+
+- Route JSON saved: `source/figma-site/raw-json/faq.json`.
+- Source contains 14 FAQ variants, each with desktop and mobile instances. Folder convention follows source numbering with zero-padded folders `01` through `14` and ids `faq-1` through `faq-14`.
+- Shared source copy: heading `FAQs`, repeated question `Question text goes here`, repeated FAQ body copy, and a `Contact` CTA where present.
+- New vendored source assets: `7b80384afcb4598747cdc59393fb846181fa21bd.svg` for accordion toggles and `2612c82d5f8370bcdb15511b3a8626ab4f16aef5.svg` for the icon-grid FAQ variant.
+- `faq-1`: centered title with five plain divider accordion items; source `1440 x 1517` desktop and `375 x 1902` mobile.
+- `faq-2`: left title with full-width plain divider accordion items; source `1440 x 1517` desktop and `375 x 1906` mobile.
+- `faq-3`: split intro/CTA with right plain divider accordion list; source `1440 x 1184` desktop and `375 x 1803` mobile.
+- `faq-4`: centered title with five bordered accordion cards; source `1440 x 1676` desktop and `375 x 1930` mobile.
+- `faq-5`: left title with full-width bordered accordion cards; source `1440 x 1556` desktop and `375 x 1930` mobile.
+- `faq-6`: split intro/CTA with right bordered accordion card list; source `1440 x 1223` desktop and `375 x 1787` mobile.
+- `faq-7`: centered title with five static FAQ items; source `1440 x 1444` desktop and `375 x 1822` mobile.
+- `faq-8`: split intro/CTA with right static FAQ list; source `1440 x 1111` desktop and `375 x 1683` mobile.
+- `faq-9`: left title with five full-width divider rows and side-by-side desktop question/answer columns; source `1440 x 1529` desktop and `375 x 1942` mobile.
+- `faq-10`: centered title with two columns of plain divider accordion items; source `1440 x 1612` desktop and `375 x 3242` mobile.
+- `faq-11`: centered title with mixed two-column bordered accordion/card rows; source `1440 x 1676` desktop and `375 x 3346` mobile.
+- `faq-12`: left title with eight static FAQ items in a two-column grid; source `1440 x 1425` desktop and `375 x 2682` mobile.
+- `faq-13`: left title with six static FAQ items in a three-column grid; source `1440 x 1115` desktop and `375 x 2134` mobile.
+- `faq-14`: centered title with six icon-led FAQ blocks in a three-column grid; source `1440 x 1163` desktop and `375 x 1962` mobile.

@@ -409,3 +409,18 @@
 - Desktop geometry: centered `768 x 299` content block; title `185px` high; centered actions `513 x 82`; form `513 x 48` with input `396 x 48`, button `101 x 48`, and `16px` gap.
 - Mobile geometry: centered `335 x 412` content block; title `224px` high; actions `335 x 164`; form stacks input and button at `335 x 48`; terms text wraps to `36px`.
 - Assets: none required.
+
+## Header Dark Family / 51-70 / Implementation Notes
+
+- Shared dark source treatment: dark neutral background `#444`, white text, no image assets, no dividers, and no section border.
+- Dark button treatment: primary buttons are white filled with black text; secondary buttons are transparent with a white border and white text.
+- Dark form treatment: email inputs are transparent with a white border and white placeholder/text; submit buttons are white filled with black text; terms text is white.
+- `header-55`: dark left text-only header, source `1440 x 369` desktop and `375 x 316` mobile; heading/body content only.
+- `header-51`: dark left two-button header, source `1440 x 489` desktop and `360 x 424` mobile; mobile source is the one dark exception capped at `360px`.
+- `header-53`: dark left email form header, source `1440 x 523` desktop and `375 x 540` mobile; desktop form row is `513 x 48`, mobile form stacks in a `335px` column.
+- `header-61`: dark split text-only header, source `1440 x 305` desktop and `375 x 364` mobile; desktop uses two `600px` columns and mobile stacks.
+- `header-57`: dark split two-button header, source `1440 x 385` desktop and `375 x 472` mobile; desktop uses two `600px` columns and mobile stacks.
+- `header-59`: dark split email form header, source `1440 x 419` desktop and `375 x 588` mobile; desktop columns are `616px` and `584px`, mobile stacks the form.
+- `header-70`: dark centered text-only header, source `1440 x 369` desktop and `375 x 316` mobile.
+- `header-66`: dark centered two-button header, source `1440 x 489` desktop and `375 x 424` mobile.
+- `header-68`: dark centered email form header, source `1440 x 523` desktop and `375 x 540` mobile.

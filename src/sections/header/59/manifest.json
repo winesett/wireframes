@@ -1,0 +1,20 @@
+{
+  "id": "header-59",
+  "category": "header",
+  "variant": "59",
+  "sourceName": "Header / 59 /",
+  "status": "draft",
+  "source": {
+    "route": "/header",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/header.json",
+    "desktopNode": "3:40325",
+    "mobileNode": "26:126449"
+  },
+  "assets": [],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 419.",
+    "mobile": "Source geometry at 375 x 588; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Dark split email form layout stacks at tablet widths; the form stacks at the mobile source state."
+  }
+}

@@ -26,9 +26,18 @@ Banner category human visual QA passed for Banners 1-16 on 2026-06-29. Implement
 | `header-47` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
 | `header-48` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
 | `header-49` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
+| `header-51` | `draft` | Dark left two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
+| `header-53` | `draft` | Dark left email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
+| `header-55` | `draft` | Dark left text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
+| `header-57` | `draft` | Dark split two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
+| `header-59` | `draft` | Dark split email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
+| `header-61` | `draft` | Dark split text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
 | `header-62` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
 | `header-63` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
 | `header-64` | `draft` | Built from saved header source snapshot. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
+| `header-66` | `draft` | Dark centered two-button header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text. Human visual QA still needed. |
+| `header-68` | `draft` | Dark centered email form header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, input/button overlap, or hidden terms text. Human visual QA still needed. |
+| `header-70` | `draft` | Dark centered text-only header. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text. Human visual QA still needed. |
 
 ## Check Artifacts
 
@@ -66,4 +75,5 @@ Banner category human visual QA passed for Banners 1-16 on 2026-06-29. Implement
 - Header 64 local metrics: `1440` renders centered section about `1440 x 369`, content `768 x 145`, heading `56/67.2`, and body `18/27`; `390` renders section `390 x 316`, centered `375px` frame, content `335 x 188`, heading `40/48`, and body `16/24`; `320` expands naturally to `340px` high; no horizontal overflow or hidden text.
 - Header 62 local metrics: `1440` renders centered section about `1440 x 489`, content `768 x 265`, centered action row `208 x 48`, and two `96 x 48` buttons with a `16px` gap; `390` renders section `390 x 424`, centered `375px` frame, content `335 x 296`; `320` expands naturally to `448px` high; no horizontal overflow, button overlap, or hidden text.
 - Header 63 local metrics: `1440` renders centered section about `1440 x 523`, content `768 x 299`, form `513 x 48`, input `396 x 48`, and button `101 x 48`; `390` renders section `390 x 540`, centered `375px` frame, stacked form controls, and wrapped centered terms text; `320` expands naturally to `564px` high; no horizontal overflow, input/button overlap, or hidden terms text.
+- Dark family local metrics: `header-55`, `header-51`, `header-53`, `header-61`, `header-57`, `header-59`, `header-70`, `header-66`, and `header-68` all render with `rgb(68, 68, 68)` background and white source text at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, hidden text, button overlap, or input/button overlap was detected. Form variants stack controls at mobile source width and terms text remains visible.
 - Production build: not applicable; this repo currently has no build step.

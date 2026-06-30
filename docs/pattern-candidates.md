@@ -74,5 +74,7 @@ Observed only. Do not abstract yet.
 - Header 45 extends the left-column shell with an email form and terms text.
 - Headers 47-49 start a two-column light header family: `600px` desktop columns, `80px` desktop gap, stacked mobile layout, no media, border, or divider.
 - Headers 62-64 start the light centered mini-family: centered `768px` text shell, centered two-button CTA, and centered email form with terms.
+- Headers 51, 53, 55, 57, 59, 61, 66, 68, and 70 establish the dark header families: left, split, and centered shells with text-only, two-button, and email-form action patterns.
+- Dark variants consistently use `#444` background, white text, white primary buttons with black text, transparent secondary buttons with white border/text, and transparent white-bordered inputs.
 - Header action/content patterns now observed: text-only, two-button CTA, email form with terms, centered text-only, centered two-button CTA, centered email form with terms, two-column CTA, two-column email form with terms, and two-column text-only.
 - Do not abstract header primitives yet; the repeated shell and action patterns are becoming clearer, but this pass intentionally remains section-scoped.

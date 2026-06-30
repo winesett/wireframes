@@ -1,0 +1,138 @@
+.header-66 {
+  display: flex;
+  width: 100%;
+  min-height: clamp(424px, calc(424px + (100vw - 375px) * 0.061), 489px);
+  align-items: center;
+  justify-content: center;
+  overflow-x: clip;
+  background: #444;
+  padding: clamp(64px, calc(64px + (100vw - 375px) * 0.0451), 112px)
+    clamp(var(--mobile-page-padding), 4.445vw, var(--desktop-page-padding));
+}
+
+.header-66__frame,
+.header-66__content,
+.header-66__title,
+.header-66__copy,
+.header-66__actions {
+  display: flex;
+}
+
+.header-66__frame {
+  width: min(100%, var(--section-max-width));
+  justify-content: center;
+}
+
+.header-66__content {
+  width: min(100%, 768px);
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(24px, calc(24px + (100vw - 375px) * 0.0075), 32px);
+  text-align: center;
+}
+
+.header-66__title,
+.header-66__copy {
+  width: 100%;
+  flex-direction: column;
+}
+
+.header-66__title {
+  align-items: center;
+  gap: clamp(12px, calc(12px + (100vw - 375px) * 0.0038), 16px);
+}
+
+.header-66__copy {
+  gap: clamp(20px, calc(20px + (100vw - 375px) * 0.0038), 24px);
+}
+
+.header-66__actions {
+  width: max-content;
+  max-width: 100%;
+  gap: 16px;
+}
+
+.header-66__tagline,
+.header-66__heading,
+.header-66__text {
+  margin: 0;
+  color: var(--color-white);
+  letter-spacing: 0;
+}
+
+.header-66__tagline {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.header-66__heading {
+  font-size: clamp(40px, calc(40px + (100vw - 375px) * 0.015), 56px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header-66__text {
+  font-size: clamp(16px, calc(16px + (100vw - 375px) * 0.00188), 18px);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.header-66__button {
+  display: inline-flex;
+  width: 96px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-white);
+  padding: 12px 24px;
+  color: var(--color-white);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.header-66__button--primary {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.header-66__button--secondary {
+  background: transparent;
+}
+
+@media (max-width: 480px) {
+  .header-66 {
+    min-height: 424px;
+    padding: 64px 0;
+  }
+
+  .header-66__frame {
+    width: min(100%, 375px);
+    padding-inline: var(--mobile-page-padding);
+  }
+
+  .header-66__content {
+    gap: 24px;
+  }
+
+  .header-66__title {
+    gap: 12px;
+  }
+
+  .header-66__copy {
+    gap: 20px;
+  }
+
+  .header-66__heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .header-66__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

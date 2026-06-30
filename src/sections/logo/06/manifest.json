@@ -1,0 +1,28 @@
+{
+  "id": "logo-6",
+  "category": "logo",
+  "variant": "Logo / 6 /",
+  "source": {
+    "route": "logo",
+    "nodeId": "5:179472",
+    "desktop": {
+      "width": 1440,
+      "height": 411
+    },
+    "mobile": {
+      "width": 375,
+      "height": 420
+    }
+  },
+  "classification": {
+    "shellFamily": "centered sparse logo grid",
+    "contentPattern": "heading plus six brand logos",
+    "assetNeeds": "Webflow and Relume SVG logo assets"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "three-column logo grid compresses to two columns",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

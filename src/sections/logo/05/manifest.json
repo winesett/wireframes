@@ -1,0 +1,28 @@
+{
+  "id": "logo-5",
+  "category": "logo",
+  "variant": "Logo / 5 /",
+  "source": {
+    "route": "logo",
+    "nodeId": "5:179471",
+    "desktop": {
+      "width": 1440,
+      "height": 387
+    },
+    "mobile": {
+      "width": 375,
+      "height": 616
+    }
+  },
+  "classification": {
+    "shellFamily": "left-aligned logo cloud",
+    "contentPattern": "heading plus wrapped brand logos",
+    "assetNeeds": "Webflow and Relume SVG logo assets"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "logo cloud wraps fluidly from seven-column desktop toward two-column mobile",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

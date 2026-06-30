@@ -1,0 +1,28 @@
+{
+  "id": "logo-2",
+  "category": "logo",
+  "variant": "Logo / 2 /",
+  "source": {
+    "route": "logo",
+    "nodeId": "5:179468",
+    "desktop": {
+      "width": 1440,
+      "height": 216
+    },
+    "mobile": {
+      "width": 375,
+      "height": 368
+    }
+  },
+  "classification": {
+    "shellFamily": "left label logo row",
+    "contentPattern": "heading plus five brand logos",
+    "assetNeeds": "Webflow and Relume SVG logo assets"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "row compresses until the label and logo cloud need to stack",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

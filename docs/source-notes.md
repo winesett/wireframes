@@ -504,3 +504,15 @@
 - Stats 57-60 use centered image/video plus compact stat stacks; mobile stat-card gaps follow the source `24px` stack spacing.
 - Existing assets reused: `0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg`, `d568b164c26b35eebe6a407c03f478bc8049c84b.png`, `b4d0118543bc011744949ebbf871f95430182503.png`, `cfe4ab08e161479b0e2b3e9e722b2e44aa563e96.png`, and `848e1738f30774439ba51df3f21500340f1edc98.png`; no new assets were required.
 - Source chrome: Stats 37-60 preserve card borders, internal divider rules where present, 32px card padding, media order, video play treatment, and mobile stack order from the source.
+
+## Logo / 1-6 / Implementation Notes
+
+- Route JSON saved: `source/figma-site/raw-json/logo.json`.
+- Shared source copy: `Used by the world's leading companies`; `logo-4` adds heading/body copy and a two-action CTA row.
+- Shared assets: newly vendored `8ee7d8cd0a33efbe1e8bfab63bd55daa7b575eaf.svg` for Webflow and `bef60dcea2f539b420bf71ac7fc171e7ece24e79.svg` for Relume; `logo-4` reuses the existing CTA arrow asset `0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg`.
+- `logo-1`: centered logo cloud with eleven logos; source `1440 x 355` desktop and `375 x 576` mobile.
+- `logo-2`: left label plus five-logo row; source `1440 x 216` desktop and `375 x 368` mobile.
+- `logo-3`: centered heading plus intentionally clipped horizontal ticker row; source `1440 x 291` desktop and `375 x 224` mobile.
+- `logo-4`: split CTA and two-column logo grid; source `1440 x 584` desktop and `375 x 829` mobile.
+- `logo-5`: left-aligned heading plus eleven-logo cloud; source `1440 x 387` desktop and `375 x 616` mobile.
+- `logo-6`: centered heading plus sparse six-logo grid; source `1440 x 411` desktop and `375 x 420` mobile.

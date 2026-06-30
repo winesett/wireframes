@@ -1,0 +1,28 @@
+{
+  "id": "logo-3",
+  "category": "logo",
+  "variant": "Logo / 3 /",
+  "source": {
+    "route": "logo",
+    "nodeId": "5:179469",
+    "desktop": {
+      "width": 1440,
+      "height": 291
+    },
+    "mobile": {
+      "width": 375,
+      "height": 224
+    }
+  },
+  "classification": {
+    "shellFamily": "centered logo ticker",
+    "contentPattern": "heading plus clipped horizontal logo row",
+    "assetNeeds": "Webflow and Relume SVG logo assets"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor with intentional edge clipping",
+    "tablet": "ticker remains a clipped horizontal row without page overflow",
+    "mobile": "source mobile anchor with intentional right-side clipping"
+  },
+  "status": "draft"
+}

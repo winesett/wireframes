@@ -95,3 +95,10 @@ Observed only. Do not abstract yet.
 - Repeated patterns observed: `1280px` centered desktop container, `375px` mobile frame, repeated stat items, source left stat/tab rules, bordered stat cards, internal card divider rules, compact stat cards, 32px card padding, shared stat number/label typography, CTA variants with outline button plus text-link arrow, dark theme modifier, image-overlay treatment, media panel treatment, and vertical title block.
 - Likely future candidates: stats section shell, stat list/item, stat number/label pair, compact stat-card base, divider stat-card base, CTA button/link pair, dark theme modifier, image-overlay treatment, media/stat split, and tab text item.
 - Keep section-specific for now: source height anchors, image crop/overlay placement, CTA presence, horizontal versus vertical intro structures, four-stat versus two-stat-description structures, divider-card versus compact-card content, media order, tab/media order, video-lightbox play treatment, and exact responsive stacking thresholds.
+
+## Logo Category
+
+- Logo 1-6 establish the logo section category with centered clouds, left-label rows, a clipped ticker row, a split CTA/logo-grid variant, and sparse centered grids.
+- Repeated patterns observed: Webflow/Relume SVG logo sizing, heading text treatment, wrapped logo cloud items, two-column mobile wrapping, and one intentional clipped ticker row.
+- Likely future candidates after human review: logo item sizing, brand SVG helper classes, wrapped logo-cloud list, and clipped ticker mechanics for logo rows.
+- Keep section-specific for now: Logo 3 ticker offsets/clipping, Logo 4 split CTA/grid spacing, and per-variant source height anchors.

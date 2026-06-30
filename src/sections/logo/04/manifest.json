@@ -1,0 +1,28 @@
+{
+  "id": "logo-4",
+  "category": "logo",
+  "variant": "Logo / 4 /",
+  "source": {
+    "route": "logo",
+    "nodeId": "5:179470",
+    "desktop": {
+      "width": 1440,
+      "height": 584
+    },
+    "mobile": {
+      "width": 375,
+      "height": 829
+    }
+  },
+  "classification": {
+    "shellFamily": "split CTA logo grid",
+    "contentPattern": "heading, body, two actions, and two-column brand logos",
+    "assetNeeds": "Webflow and Relume SVG logo assets plus existing CTA arrow SVG"
+  },
+  "responsive": {
+    "desktop": "source desktop split anchor",
+    "tablet": "CTA and logo grid stack before the split becomes cramped",
+    "mobile": "source mobile stacked anchor"
+  },
+  "status": "draft"
+}

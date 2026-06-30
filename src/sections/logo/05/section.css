@@ -1,0 +1,81 @@
+.logo-5 {
+  display: flex;
+  width: 100%;
+  min-height: clamp(387px, calc(616px + (100vw - 375px) * -0.215), 616px);
+  align-items: center;
+  justify-content: center;
+  overflow-x: clip;
+  background: var(--color-white);
+  padding: clamp(48px, calc(48px + (100vw - 375px) * 0.0301), 80px)
+    clamp(var(--mobile-page-padding), 4.445vw, var(--desktop-page-padding));
+}
+
+.logo-5__frame {
+  display: flex;
+  width: min(100%, var(--section-max-width));
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(40px, calc(40px + (100vw - 375px) * 0.0075), 48px);
+}
+
+.logo-5__heading {
+  width: min(100%, 560px);
+  margin: 0;
+  color: var(--color-black);
+  font-size: clamp(16px, calc(16px + (100vw - 375px) * 0.0019), 18px);
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.logo-5__list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: clamp(24px, calc(24px + (100vw - 375px) * -0.0075), 32px) 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo-5__item {
+  display: flex;
+  width: 140px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-5__logo {
+  display: block;
+  max-width: 100%;
+}
+
+.logo-5__logo--webflow {
+  width: 135px;
+  height: 23px;
+}
+
+.logo-5__logo--relume {
+  width: 133px;
+  height: 36px;
+}
+
+@media (max-width: 480px) {
+  .logo-5 {
+    min-height: 616px;
+    padding: 48px 0;
+  }
+
+  .logo-5__frame {
+    width: min(100%, 375px);
+    padding-inline: var(--mobile-page-padding);
+    gap: 40px;
+  }
+
+  .logo-5__heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

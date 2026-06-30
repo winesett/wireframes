@@ -51,7 +51,7 @@ await removeStalePid();
 const serverCode = `
 import http from "node:http";
 import { createReadStream } from "node:fs";
-import { stat } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 
 const root = ${JSON.stringify(repoRoot)};
@@ -76,6 +76,18 @@ function send(res, status, message) {
   res.end(message);
 }
 
+async function sendHtml(res, filePath, pathname) {
+  let html = await readFile(filePath, "utf8");
+  if (/^\\/src\\/sections\\/[^/]+\\/[^/]+\\/section\\.html$/.test(pathname)) {
+    html = html.replace(
+      "</body>",
+      '  <script src="/scripts/dev/review-section-nav.js" data-review-only="true"></script>\\n  </body>'
+    );
+  }
+  res.writeHead(200, { "content-type": "text/html; charset=utf-8" });
+  res.end(html);
+}
+
 const server = http.createServer(async (req, res) => {
   try {
     const requestedUrl = new URL(req.url || "/", "http://127.0.0.1");
@@ -89,6 +101,10 @@ const server = http.createServer(async (req, res) => {
     const stats = await stat(filePath);
     if (!stats.isFile()) {
       send(res, 404, "Not found");
+      return;
+    }
+    if (path.extname(filePath) === ".html") {
+      await sendHtml(res, filePath, pathname);
       return;
     }
     res.writeHead(200, { "content-type": types.get(path.extname(filePath)) || "application/octet-stream" });

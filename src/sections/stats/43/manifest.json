@@ -1,0 +1,28 @@
+{
+  "id": "stats-43",
+  "category": "stats",
+  "variant": "Stats / 43 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:239563",
+    "desktop": {
+      "width": 1440,
+      "height": 888
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1721
+    }
+  },
+  "classification": {
+    "shellFamily": "side-intro-card-grid",
+    "contentPattern": "four bordered divider stat cards with CTA",
+    "assetNeeds": "none"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "fluid compression with source structural stacking before content becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

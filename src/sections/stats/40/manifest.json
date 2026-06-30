@@ -1,0 +1,28 @@
+{
+  "id": "stats-40",
+  "category": "stats",
+  "variant": "Stats / 40 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:239386",
+    "desktop": {
+      "width": 1440,
+      "height": 716
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1158
+    }
+  },
+  "classification": {
+    "shellFamily": "heading-only-divider-cards",
+    "contentPattern": "three bordered divider stat cards",
+    "assetNeeds": "none"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "fluid compression with source structural stacking before content becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

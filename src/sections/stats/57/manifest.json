@@ -1,0 +1,28 @@
+{
+  "id": "stats-57",
+  "category": "stats",
+  "variant": "Stats / 57 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:240514",
+    "desktop": {
+      "width": 1440,
+      "height": 1018
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1098
+    }
+  },
+  "classification": {
+    "shellFamily": "centered-title-media-compact-cards",
+    "contentPattern": "image plus vertical compact stat cards",
+    "assetNeeds": "uses existing image asset b4d0118543bc011744949ebbf871f95430182503.png"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "fluid compression with source structural stacking before content becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

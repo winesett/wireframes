@@ -1,0 +1,28 @@
+{
+  "id": "stats-51",
+  "category": "stats",
+  "variant": "Stats / 51 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:240508",
+    "desktop": {
+      "width": 1440,
+      "height": 889
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1133
+    }
+  },
+  "classification": {
+    "shellFamily": "stacked-title-compact-cards",
+    "contentPattern": "three compact bordered stat cards with CTA",
+    "assetNeeds": "none"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "fluid compression with source structural stacking before content becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

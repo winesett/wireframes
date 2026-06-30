@@ -1,0 +1,22 @@
+.stats-43{display:flex;width:100%;min-height:clamp(888px,calc(1721px - (100vw - 375px) * 0.7821596244131456),1721px);align-items:center;justify-content:center;overflow-x:clip;background:var(--color-white);color:var(--color-black);padding:clamp(64px,calc(64px + (100vw - 375px) * 0.0451),112px) clamp(var(--mobile-page-padding),4.445vw,var(--desktop-page-padding));}
+.stats-43__frame{display:flex;width:min(100%,var(--section-max-width));}
+.stats-43__container{display:flex;width:100%;flex-direction:column;gap:clamp(48px,calc(48px + (100vw - 375px) * 0.0301),80px);}
+.stats-43__intro,.stats-43__title,.stats-43__copy,.stats-43__side-copy,.stats-43__content,.stats-43__stat,.stats-43__stat-content,.stats-43__stat-column{display:flex;flex-direction:column;}
+.stats-43__tagline,.stats-43__heading,.stats-43__text,.stats-43__stat-label,.stats-43__number,.stats-43__description{margin:0;color:currentColor;letter-spacing:0;}
+.stats-43__title{width:min(100%,768px);gap:clamp(12px,calc(12px + (100vw - 375px) * 0.0038),16px);}
+.stats-43__title--center{align-items:center;text-align:center;margin-inline:auto;}
+.stats-43__copy{gap:clamp(20px,calc(20px + (100vw - 375px) * 0.0038),24px);}
+.stats-43__tagline{font-size:16px;font-weight:600;line-height:24px;}
+.stats-43__heading{font-size:clamp(36px,calc(36px + (100vw - 375px) * 0.0112676),48px);font-weight:700;line-height:1.2;}
+.stats-43__text{font-size:clamp(16px,calc(16px + (100vw - 375px) * 0.00188),18px);font-weight:400;line-height:1.5;}
+.stats-43__stat-label{font-size:clamp(18px,calc(18px + (100vw - 375px) * 0.00188),20px);font-weight:700;line-height:1.4;}
+.stats-43__number{font-size:clamp(56px,calc(56px + (100vw - 375px) * 0.0225352),80px);font-weight:700;line-height:1.2;}
+.stats-43__description{font-size:16px;font-weight:400;line-height:24px;}
+.stats-43__rule{display:block;width:100%;height:0;border-top:1px solid currentColor;}
+.stats-43__actions{display:flex;width:max-content;max-width:100%;align-items:center;gap:24px;}
+.stats-43__button{display:inline-flex;width:96px;height:48px;align-items:center;justify-content:center;border:1px solid currentColor;background:transparent;color:currentColor;font-size:16px;line-height:24px;text-decoration:none;white-space:nowrap;}
+.stats-43__link{display:inline-flex;align-items:center;gap:8px;color:currentColor;font-size:16px;line-height:24px;text-decoration:none;white-space:nowrap;}
+.stats-43__link::after{content:"";display:block;width:7px;height:12px;background:currentColor;-webkit-mask:url("../../../../source/figma-site/assets/0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg") center/contain no-repeat;mask:url("../../../../source/figma-site/assets/0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg") center/contain no-repeat;}
+.stats-43__content{display:grid;width:100%;grid-template-columns:400px minmax(0,800px);gap:80px;align-items:center;}.stats-43__intro{gap:32px;}.stats-43__stats{display:grid;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;}.stats-43__stat{min-width:0;min-height:316px;justify-content:flex-start;gap:48px;box-shadow:inset 0 0 0 1px currentColor;background:var(--color-white);padding:32px;}.stats-43__stat-content{gap:16px;}
+@media (max-width:1100px){.stats-43__intro,.stats-43__content{display:flex;flex-direction:column;gap:48px;}.stats-43__stats{grid-template-columns:1fr;}.stats-43__stat,.stats-43__stat--tall{min-height:0}.stats-43__media{min-height:360px;}}
+@media (max-width:480px){.stats-43{min-height:1721px;padding:64px 0;}.stats-43__frame{width:min(100%,375px);padding-inline:var(--mobile-page-padding);}.stats-43__container,.stats-43__content{gap:48px;}.stats-43__intro{gap:24px;}.stats-43__title{gap:12px;}.stats-43__copy{gap:20px;}.stats-43__side-copy{gap:24px;}.stats-43__heading{font-size:36px;line-height:43.2px;}.stats-43__text{font-size:16px;line-height:24px;}.stats-43__stats,.stats-43__stat-column{gap:32px;}.stats-43__stat,.stats-43__stat--tall{height:auto;min-height:268px;gap:32px;}.stats-43__number{font-size:56px;line-height:67.2px;}.stats-43__stat-label{font-size:18px;line-height:25.2px;}.stats-43__media{min-height:225px;}}

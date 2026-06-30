@@ -1,0 +1,28 @@
+{
+  "id": "stats-53",
+  "category": "stats",
+  "variant": "Stats / 53 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:240510",
+    "desktop": {
+      "width": 1440,
+      "height": 1017
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1695
+    }
+  },
+  "classification": {
+    "shellFamily": "split-intro-mixed-media-compact-cards",
+    "contentPattern": "compact stat cards with alternating image tiles and CTA",
+    "assetNeeds": "uses existing image asset d568b164c26b35eebe6a407c03f478bc8049c84b.png"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "fluid compression with source structural stacking before content becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

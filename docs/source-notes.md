@@ -494,3 +494,13 @@
 - Stats 33-36 use centered title blocks with media/stat-card split layouts; Stats 33-34 use image panels, while Stats 35-36 use video-lightbox panels with the existing play treatment.
 - Existing media assets reused: `b4d0118543bc011744949ebbf871f95430182503.png`, `cfe4ab08e161479b0e2b3e9e722b2e44aa563e96.png`, `848e1738f30774439ba51df3f21500340f1edc98.png`, and `d568b164c26b35eebe6a407c03f478bc8049c84b.png`; no new assets were required.
 - Source chrome: Stats 25-36 preserve the card borders, 32px card padding, stat text spacing inside each card, media order, and mobile stack order from the source.
+
+## Stats / 37-60 / Implementation Notes
+
+- Stats 37-48 establish bordered divider-card variants: split intro, stacked title, side intro, mixed media/card, and centered media/stat layouts.
+- Stats 37-44 use stat cards with source `1px` card chrome, 32px padding, number/label/description copy, and internal horizontal rules.
+- Stats 45-48 use centered media/stat splits with source media dimensions, vertical stat-card stacks, and the existing image/video assets.
+- Stats 49-56 continue the same layout families with compact number/label-only bordered cards and no internal description/rule.
+- Stats 57-60 use centered image/video plus compact stat stacks; mobile stat-card gaps follow the source `24px` stack spacing.
+- Existing assets reused: `0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg`, `d568b164c26b35eebe6a407c03f478bc8049c84b.png`, `b4d0118543bc011744949ebbf871f95430182503.png`, `cfe4ab08e161479b0e2b3e9e722b2e44aa563e96.png`, and `848e1738f30774439ba51df3f21500340f1edc98.png`; no new assets were required.
+- Source chrome: Stats 37-60 preserve card borders, internal divider rules where present, 32px card padding, media order, video play treatment, and mobile stack order from the source.

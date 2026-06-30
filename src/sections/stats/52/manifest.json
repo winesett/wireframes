@@ -1,0 +1,28 @@
+{
+  "id": "stats-52",
+  "category": "stats",
+  "variant": "Stats / 52 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:240509",
+    "desktop": {
+      "width": 1440,
+      "height": 596
+    },
+    "mobile": {
+      "width": 375,
+      "height": 846
+    }
+  },
+  "classification": {
+    "shellFamily": "heading-only-compact-cards",
+    "contentPattern": "three compact bordered stat cards",
+    "assetNeeds": "none"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "fluid compression with source structural stacking before content becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

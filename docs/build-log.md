@@ -52,3 +52,4 @@
 - Added `stats-13` through `stats-24` from the saved stats source snapshot. Vendored four required media PNG assets for image, video-lightbox, and tabbed-media variants; preserved source stat/tab left rules; kept each section section-scoped with status `draft`; and checked each at `1440`, `1024`, `768`, `390`, and `320`.
 
 - Added `stats-25` through `stats-36` from the saved stats source snapshot. Reused existing Stats media assets, preserved source bordered stat-card chrome and spacing, kept each section section-scoped with status `draft`, and checked each at `1440`, `1024`, `768`, `390`, and `320`.
+- Added `stats-37` through `stats-60` from the saved stats source snapshot. Reused existing Stats CTA/media assets, preserved bordered card chrome, internal divider rules, media/video ordering, and compact-card spacing, kept each section section-scoped with status `draft`, and checked each at `1440`, `1024`, `768`, `390`, and `320`.

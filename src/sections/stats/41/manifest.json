@@ -1,0 +1,28 @@
+{
+  "id": "stats-41",
+  "category": "stats",
+  "variant": "Stats / 41 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:239431",
+    "desktop": {
+      "width": 1440,
+      "height": 1137
+    },
+    "mobile": {
+      "width": 375,
+      "height": 2007
+    }
+  },
+  "classification": {
+    "shellFamily": "split-intro-mixed-media-divider-cards",
+    "contentPattern": "mixed image/stat columns with CTA",
+    "assetNeeds": "existing stats image asset"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "fluid compression with source structural stacking before content becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

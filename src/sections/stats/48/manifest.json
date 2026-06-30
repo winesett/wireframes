@@ -1,0 +1,28 @@
+{
+  "id": "stats-48",
+  "category": "stats",
+  "variant": "Stats / 48 /",
+  "source": {
+    "route": "stats",
+    "nodeId": "5:239878",
+    "desktop": {
+      "width": 1440,
+      "height": 1306
+    },
+    "mobile": {
+      "width": 375,
+      "height": 1374
+    }
+  },
+  "classification": {
+    "shellFamily": "centered-title-video-stat-list",
+    "contentPattern": "vertical bordered divider stat cards plus video lightbox",
+    "assetNeeds": "existing stats video assets"
+  },
+  "responsive": {
+    "desktop": "source desktop anchor",
+    "tablet": "fluid compression with source structural stacking before content becomes cramped",
+    "mobile": "source mobile anchor"
+  },
+  "status": "draft"
+}

@@ -80,7 +80,9 @@
   display: flex;
   width: 100%;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
+  text-align: center;
 }
 
 .faq-14__question-row {
@@ -123,6 +125,7 @@
 .faq-14__copy {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
 }
 

@@ -17,7 +17,7 @@
   "classification": {
     "shellFamily": "centered plain accordion",
     "contentPattern": "centered title, five divider accordion rows, contact CTA",
-    "assetNeeds": "FAQ plus SVG asset"
+    "assetNeeds": "FAQ chevron toggle SVG asset"
   },
   "responsive": {
     "desktop": "source desktop anchor",

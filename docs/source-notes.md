@@ -522,7 +522,7 @@
 - Route JSON saved: `source/figma-site/raw-json/faq.json`.
 - Source contains 14 FAQ variants, each with desktop and mobile instances. Folder convention follows source numbering with zero-padded folders `01` through `14` and ids `faq-1` through `faq-14`.
 - Shared source copy: heading `FAQs`, repeated question `Question text goes here`, repeated FAQ body copy, and a `Contact` CTA where present.
-- New vendored source assets: `7b80384afcb4598747cdc59393fb846181fa21bd.svg` for accordion toggles and `2612c82d5f8370bcdb15511b3a8626ab4f16aef5.svg` for the icon-grid FAQ variant.
+- New vendored source assets: `13fb3795038e834d80fb97cb312316f37a2b44a2.svg` and `3f200a9995f3087a2e400f097b45152a368b7af5.svg` for chevron accordion toggles, `7b80384afcb4598747cdc59393fb846181fa21bd.svg` for X accordion toggles in card/mixed variants, and `2612c82d5f8370bcdb15511b3a8626ab4f16aef5.svg` for the icon-grid FAQ variant.
 - `faq-1`: centered title with five plain divider accordion items; source `1440 x 1517` desktop and `375 x 1902` mobile.
 - `faq-2`: left title with full-width plain divider accordion items; source `1440 x 1517` desktop and `375 x 1906` mobile.
 - `faq-3`: split intro/CTA with right plain divider accordion list; source `1440 x 1184` desktop and `375 x 1803` mobile.

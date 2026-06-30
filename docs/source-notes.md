@@ -14,7 +14,7 @@
 
 - Banner folders are zero-padded for `01` through `09` and unpadded for `10` through `16`.
 - Stable section ids are unpadded: `banner-1` through `banner-16`.
-- Stats folders are zero-padded for `01` through `12`; stable section ids are unpadded: `stats-1` through `stats-12`.
+- Stats folders are zero-padded for `01` through `24`; stable section ids are unpadded: `stats-1` through `stats-24`.
 
 ## Banner / 1 / Source Report
 
@@ -472,3 +472,15 @@
 - `stats-10`: image-overlay version of `stats-8`; source `1440 x 540` desktop and `375 x 672` mobile.
 - `stats-11`: dark `#444` version of `stats-7`; source `1440 x 833` desktop and `375 x 959` mobile.
 - `stats-12`: dark `#444` version of `stats-8`; source `1440 x 540` desktop and `375 x 672` mobile.
+
+## Stats / 13-24 / Implementation Notes
+
+- `stats-13` through `stats-18` continue the split-content stats family: left content/CTA column, right stat cluster, light/image/dark theme progression, and source `1px` left stat rules.
+- `stats-13`, `stats-15`, and `stats-17` use four `50%` stats in a two-by-two cluster; desktop source `1440 x 565`, mobile source `375 x 1073`.
+- `stats-14`, `stats-16`, and `stats-18` use two larger stat rows with supporting description text; desktop source `1440 x 616`, mobile source `375 x 909`.
+- `stats-15` and `stats-16` reuse the existing image background asset `d50ffb0afa333613e155822dc6b3dfe63f150a74.png` with a `40%` black overlay.
+- `stats-19` and `stats-20` use a centered title block, an image panel, and a three-stat column; desktop source `1440 x 1021`, mobile source `375 x 922`.
+- `stats-21` and `stats-22` use a centered title block, video-lightbox media, and a three-stat column; desktop source `1440 x 1021`, mobile source `375 x 930` for `stats-21` and `375 x 922` for `stats-22`.
+- `stats-23` and `stats-24` use a left-aligned title block plus a tabbed media/stat text layout; desktop source `1440 x 1165`, mobile source `375 x 1355`.
+- New vendored media assets: `b4d0118543bc011744949ebbf871f95430182503.png`, `cfe4ab08e161479b0e2b3e9e722b2e44aa563e96.png`, `848e1738f30774439ba51df3f21500340f1edc98.png`, and `d568b164c26b35eebe6a407c03f478bc8049c84b.png`.
+- Source chrome: Stats 13-22 preserve `1px` stat left rules; Stats 23-24 preserve the active `1px` tab left rule and inactive `2px` tab left rules.

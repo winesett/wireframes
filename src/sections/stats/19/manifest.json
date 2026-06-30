@@ -1,0 +1,22 @@
+{
+  "id": "stats-19",
+  "category": "stats",
+  "variant": "19",
+  "sourceName": "Stats / 19 /",
+  "status": "draft",
+  "source": {
+    "route": "/stats",
+    "json": "../../../../source/figma-site/raw-json/stats.json",
+    "componentSetNode": "5:238273",
+    "desktopNode": "5:238274",
+    "mobileNode": "5:238294"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/b4d0118543bc011744949ebbf871f95430182503.png"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 1021 with image media and stat column.",
+    "mobile": "Source geometry at 375 x 922; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Media/stat layout stacks at tablet widths while preserving source order."
+  }
+}

@@ -1,0 +1,215 @@
+.stats-19 {
+  display: flex;
+  width: 100%;
+  min-height: clamp(1021px, calc(922px - (100vw - 375px) * -0.0930), 922px);
+  align-items: center;
+  justify-content: center;
+  overflow-x: clip;
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: clamp(64px, calc(64px + (100vw - 375px) * 0.0451), 112px)
+    clamp(var(--mobile-page-padding), 4.445vw, var(--desktop-page-padding));
+}
+
+.stats-19__frame {
+  display: flex;
+  width: min(100%, var(--section-max-width));
+}
+
+.stats-19__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: clamp(48px, calc(48px + (100vw - 375px) * 0.0301), 80px);
+}
+
+.stats-19__title {
+  display: flex;
+  width: min(100%, 768px);
+  align-self: center;
+  flex-direction: column;
+  gap: clamp(12px, calc(12px + (100vw - 375px) * 0.0038), 16px);
+  text-align: center;
+}
+
+.stats-19__copy {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, calc(20px + (100vw - 375px) * 0.0038), 24px);
+}
+
+.stats-19__tagline,
+.stats-19__heading,
+.stats-19__text,
+.stats-19__stats,
+.stats-19__number,
+.stats-19__label {
+  margin: 0;
+  color: currentColor;
+  letter-spacing: 0;
+}
+
+.stats-19__tagline {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.stats-19__heading {
+  font-size: clamp(36px, calc(36px + (100vw - 375px) * 0.0113), 48px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stats-19__text {
+  font-size: clamp(16px, calc(16px + (100vw - 375px) * 0.00188), 18px);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.stats-19__content {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.stats-19__media {
+  display: flex;
+  width: calc(100% - 428px);
+  min-height: 568px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: url("../../../../source/figma-site/assets/b4d0118543bc011744949ebbf871f95430182503.png") center / cover no-repeat;
+}
+
+.stats-19__media--video {
+  position: relative;
+}
+
+.stats-19__media--video::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.stats-19__play {
+  position: relative;
+  z-index: 1;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--color-white);
+}
+
+.stats-19__play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 17px solid var(--color-black);
+  transform: translate(-50%, -50%);
+}
+
+.stats-19__stats {
+  display: flex;
+  width: 428px;
+  flex-direction: column;
+  gap: clamp(32px, calc(32px + (100vw - 375px) * 0.015), 48px);
+  padding: 48px;
+}
+
+.stats-19__stat {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 8px;
+  border-left: 1px solid currentColor;
+  padding-left: 32px;
+}
+
+.stats-19__number {
+  font-size: clamp(40px, calc(40px + (100vw - 375px) * 0.015), 56px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stats-19__label {
+  font-size: clamp(18px, calc(18px + (100vw - 375px) * 0.00188), 20px);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+@media (max-width: 1100px) {
+  .stats-19__content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .stats-19__media,
+  .stats-19__stats {
+    width: 100%;
+  }
+
+  .stats-19__stats {
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-19 {
+    min-height: 922px;
+    padding: 64px 0;
+  }
+
+  .stats-19__frame {
+    width: min(100%, 375px);
+    padding-inline: var(--mobile-page-padding);
+  }
+
+  .stats-19__container {
+    gap: 48px;
+  }
+
+  .stats-19__title {
+    gap: 12px;
+  }
+
+  .stats-19__copy {
+    gap: 20px;
+  }
+
+  .stats-19__heading {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  .stats-19__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .stats-19__media {
+    min-height: 225px;
+    background-image: url("../../../../source/figma-site/assets/b4d0118543bc011744949ebbf871f95430182503.png");
+  }
+
+  .stats-19__stats {
+    gap: 32px;
+  }
+
+  .stats-19__number {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .stats-19__label {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}

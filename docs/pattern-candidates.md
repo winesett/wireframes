@@ -86,6 +86,8 @@ Observed only. Do not abstract yet.
 
 - Stats 1-6 establish a simple horizontal stat-row mini-family with light, image-overlay, and dark shells.
 - Stats 7-12 establish a vertical title/stat mini-family with the same light, image-overlay, and dark shell progression.
-- Repeated patterns observed: `1280px` centered desktop container, `375px` mobile frame, three repeated stat items, source `1px` left stat rules, shared stat number/label typography, CTA variants with outline button plus text-link arrow, dark theme modifier, and image-overlay treatment.
-- Likely future candidates: stats section shell, stat list/item, stat number/label pair, CTA button/link pair, dark theme modifier, image-overlay treatment, and vertical title block.
-- Keep section-specific for now: source height anchors, image crop/overlay placement, CTA presence, horizontal versus vertical intro structures, heading scale differences, and exact responsive stacking thresholds.
+- Stats 13-18 add split content/stat-cluster variants with four-stat and two-stat-description structures across light, image-overlay, and dark themes.
+- Stats 19-24 add media/stat and tabbed-media stat layouts, including image panels, video-lightbox panels, active/inactive tab rules, and larger mobile stacks.
+- Repeated patterns observed: `1280px` centered desktop container, `375px` mobile frame, repeated stat items, source left stat/tab rules, shared stat number/label typography, CTA variants with outline button plus text-link arrow, dark theme modifier, image-overlay treatment, media panel treatment, and vertical title block.
+- Likely future candidates: stats section shell, stat list/item, stat number/label pair, CTA button/link pair, dark theme modifier, image-overlay treatment, media/stat split, and tab text item.
+- Keep section-specific for now: source height anchors, image crop/overlay placement, CTA presence, horizontal versus vertical intro structures, four-stat versus two-stat-description structures, media order, tab/media order, video-lightbox play treatment, and exact responsive stacking thresholds.

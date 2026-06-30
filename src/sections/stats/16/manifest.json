@@ -1,0 +1,23 @@
+{
+  "id": "stats-16",
+  "category": "stats",
+  "variant": "16",
+  "sourceName": "Stats / 16 /",
+  "status": "draft",
+  "source": {
+    "route": "/stats",
+    "json": "../../../../source/figma-site/raw-json/stats.json",
+    "componentSetNode": "5:238126",
+    "desktopNode": "5:238127",
+    "mobileNode": "5:238149"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/d50ffb0afa333613e155822dc6b3dfe63f150a74.png",
+    "../../../../source/figma-site/assets/0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 616 with image background and 40% black overlay.",
+    "mobile": "Source geometry at 375 x 909; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Split content/stat cluster compresses fluidly and stacks before tablet widths become cramped."
+  }
+}

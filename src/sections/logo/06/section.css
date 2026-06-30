@@ -15,7 +15,7 @@
   width: min(100%, var(--section-max-width));
   flex-direction: column;
   align-items: center;
-  gap: clamp(48px, calc(48px + (100vw - 375px) * 0.0394), 90px);
+  gap: clamp(32px, calc(32px + (100vw - 375px) * 0.015), 48px);
 }
 
 .logo-6__heading {
@@ -32,9 +32,9 @@
 .logo-6__list {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(3, 140px);
-  justify-content: space-around;
-  gap: 56px clamp(32px, 20vw, 288px);
+  grid-template-columns: repeat(3, 420px);
+  justify-content: center;
+  gap: 8px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -42,8 +42,16 @@
 
 .logo-6__item {
   display: flex;
+  width: 420px;
+  height: 84px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-6__logo-box {
+  display: flex;
   width: 140px;
-  height: 36px;
+  height: 56px;
   align-items: center;
   justify-content: center;
 }
@@ -63,15 +71,7 @@
   height: 36px;
 }
 
-@media (max-width: 720px) {
-  .logo-6__list {
-    grid-template-columns: repeat(2, 140px);
-    justify-content: center;
-    column-gap: 32px;
-  }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
   .logo-6 {
     min-height: 420px;
     padding: 48px 0;
@@ -80,9 +80,22 @@
   .logo-6__frame {
     width: min(100%, 375px);
     padding-inline: var(--mobile-page-padding);
-    gap: 48px;
+    gap: 32px;
   }
 
+  .logo-6__list {
+    grid-template-columns: repeat(2, 164px);
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .logo-6__item {
+    width: 164px;
+    height: 84px;
+  }
+}
+
+@media (max-width: 480px) {
   .logo-6__heading {
     font-size: 16px;
     line-height: 24px;

@@ -11,7 +11,7 @@
 
 .logo-3__frame {
   display: flex;
-  width: 100%;
+  width: min(100%, 1440px);
   flex-direction: column;
   align-items: center;
   gap: clamp(56px, calc(56px + (100vw - 375px) * -0.0075), 64px);
@@ -41,6 +41,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-inline: auto;
   transform: translateX(clamp(-20px, calc(13px + (100vw - 375px) * -0.031), 13px));
 }
 

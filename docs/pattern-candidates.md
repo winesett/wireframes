@@ -73,5 +73,6 @@ Observed only. Do not abstract yet.
 - Header 44 adds a tagline and fixed `208 x 48` two-button action row; Header 46 is text-only.
 - Header 45 extends the left-column shell with an email form and terms text.
 - Headers 47-49 start a two-column light header family: `600px` desktop columns, `80px` desktop gap, stacked mobile layout, no media, border, or divider.
-- Header action/content patterns now observed: text-only, two-button CTA, email form with terms, two-column CTA, two-column email form with terms, and two-column text-only.
+- Headers 62-64 start the light centered mini-family: centered `768px` text shell, centered two-button CTA, and centered email form with terms.
+- Header action/content patterns now observed: text-only, two-button CTA, email form with terms, centered text-only, centered two-button CTA, centered email form with terms, two-column CTA, two-column email form with terms, and two-column text-only.
 - Do not abstract header primitives yet; the repeated shell and action patterns are becoming clearer, but this pass intentionally remains section-scoped.

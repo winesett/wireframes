@@ -367,3 +367,45 @@
 - Desktop geometry: `1280 x 81` row with two `600px` columns and `80px` gap.
 - Mobile geometry: `335 x 236` stacked content with `20px` gap; heading `96px`; body `120px`.
 - Assets: none required.
+
+## Header / 64 / Implementation Note
+
+- Stable section id: `header-64`
+- Source variant name: `Header / 64 /`
+- Component set node: `3:40168`
+- Desktop component node: `3:40169`, instance node: `3:40330`, size `1440 x 369`
+- Mobile component node: `3:40174`, instance node: `26:126454`, size `375 x 316`
+- Shell family: light centered text-only header.
+- Content/action pattern: centered heading and body copy; no action controls.
+- Visual chrome: white background only; no image, icon, divider, border, form, or buttons.
+- Desktop geometry: root padding `112px 64px`; centered `1280 x 145` container; centered `768 x 145` content block; heading `56/67.2`; body `18/27`; text aligned center.
+- Mobile geometry: root padding `64px 20px`; centered `335 x 188` content block inside the `375px` source frame; heading `40/48`; body `16/24`; text aligned center.
+- Assets: none required.
+
+## Header / 62 / Implementation Note
+
+- Stable section id: `header-62`
+- Source variant name: `Header / 62 /`
+- Component set node: `3:40114`
+- Desktop component node: `3:40115`, instance node: `3:40328`, size `1440 x 489`
+- Mobile component node: `3:40127`, instance node: `26:126452`, size `375 x 424`
+- Shell family: light centered CTA header.
+- Content/action pattern: centered tagline, heading, body copy, and two-button action group.
+- Visual chrome: white background; black/white buttons; no image, icon, divider, or border.
+- Desktop geometry: centered `768 x 265` content block; section title `185px` high; centered actions `208 x 48`; buttons `96 x 48` with `16px` gap.
+- Mobile geometry: centered `335 x 296` content block; section title `224px` high; centered actions `208 x 48`.
+- Assets: none required.
+
+## Header / 63 / Implementation Note
+
+- Stable section id: `header-63`
+- Source variant name: `Header / 63 /`
+- Component set node: `3:40139`
+- Desktop component node: `3:40140`, instance node: `3:40329`, size `1440 x 523`
+- Mobile component node: `3:40154`, instance node: `26:126453`, size `375 x 540`
+- Shell family: light centered email signup header.
+- Content/action pattern: centered tagline, heading, body copy, email input, submit button, and centered terms text.
+- Visual chrome: white background; black bordered input; black filled submit button; no image, icon, divider, or border.
+- Desktop geometry: centered `768 x 299` content block; title `185px` high; centered actions `513 x 82`; form `513 x 48` with input `396 x 48`, button `101 x 48`, and `16px` gap.
+- Mobile geometry: centered `335 x 412` content block; title `224px` high; actions `335 x 164`; form stacks input and button at `335 x 48`; terms text wraps to `36px`.
+- Assets: none required.

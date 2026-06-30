@@ -1,0 +1,20 @@
+{
+  "id": "header-64",
+  "category": "header",
+  "variant": "64",
+  "sourceName": "Header / 64 /",
+  "status": "draft",
+  "source": {
+    "route": "/header",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/header.json",
+    "desktopNode": "3:40330",
+    "mobileNode": "26:126454"
+  },
+  "assets": [],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 369.",
+    "mobile": "Source geometry at 375 x 316; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Fluid centered text-only header between the desktop and mobile anchors; no structural breakpoint is required."
+  }
+}

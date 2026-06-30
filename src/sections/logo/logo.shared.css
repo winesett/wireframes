@@ -1,0 +1,40 @@
+.logo-heading,
+.logo-text {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+.logo-list,
+.logo-grid,
+.logo-track {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-mark {
+  display: block;
+  max-width: 100%;
+}
+
+.logo-actions {
+  display: flex;
+  align-items: center;
+}
+
+.logo-button,
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  font: inherit;
+  letter-spacing: 0;
+  text-decoration: none;
+}

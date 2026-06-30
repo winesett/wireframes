@@ -105,6 +105,7 @@ Observed only. Do not abstract yet.
 
 ## FAQ Category
 
+- FAQ category human visual QA has passed for FAQ 1-14; implementation status remains `draft`.
 - FAQ 1-3 establish the plain divider accordion family: centered, full-width left-aligned, and split intro variants.
 - FAQ 4-6 establish the bordered accordion-card family across centered, full-width left-aligned, and split intro variants.
 - FAQ 7-8 establish static FAQ list variants without accordion toggle chrome.

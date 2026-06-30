@@ -14,7 +14,7 @@
 
 - Banner folders are zero-padded for `01` through `09` and unpadded for `10` through `16`.
 - Stable section ids are unpadded: `banner-1` through `banner-16`.
-- Stats folders are zero-padded for `01` through `06`; stable section ids are unpadded: `stats-1` through `stats-6`.
+- Stats folders are zero-padded for `01` through `12`; stable section ids are unpadded: `stats-1` through `stats-12`.
 
 ## Banner / 1 / Source Report
 
@@ -458,3 +458,17 @@
 - `stats-4`: image-overlay version of `stats-2`; source `1440 x 579` desktop and `375 x 884` mobile.
 - `stats-5`: dark `#444` version of `stats-1`; source `1440 x 659` desktop and `375 x 1007` mobile.
 - `stats-6`: dark `#444` version of `stats-2`; source `1440 x 579` desktop and `375 x 884` mobile.
+
+## Stats / 7-12 / Implementation Notes
+
+- Shared family: vertical intro/stat sections with a left-aligned `768px` desktop title block, `1280px` stats row, `80px` desktop section gaps, and `375px` mobile source frame.
+- Shared stat chrome: each stat item has a source `1px` left stroke and `32px` left padding; light variants use black rules, image/dark variants use white rules.
+- Shared stat content: number `30%`; label `Short heading goes here`; repeated three times.
+- CTA variants use the existing `0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg` trailing arrow asset.
+- Image-overlay variants reuse `d50ffb0afa333613e155822dc6b3dfe63f150a74.png` with a `40%` black overlay.
+- `stats-7`: light vertical tagline, heading, body copy, three-stat row, and CTA row; source `1440 x 833` desktop and `375 x 959` mobile.
+- `stats-8`: light heading-only plus three-stat row; source `1440 x 540` desktop and `375 x 672` mobile.
+- `stats-9`: image-overlay version of `stats-7`; source `1440 x 833` desktop and `375 x 959` mobile.
+- `stats-10`: image-overlay version of `stats-8`; source `1440 x 540` desktop and `375 x 672` mobile.
+- `stats-11`: dark `#444` version of `stats-7`; source `1440 x 833` desktop and `375 x 959` mobile.
+- `stats-12`: dark `#444` version of `stats-8`; source `1440 x 540` desktop and `375 x 672` mobile.

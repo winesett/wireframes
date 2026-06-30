@@ -85,6 +85,7 @@ Observed only. Do not abstract yet.
 ## Stats Category
 
 - Stats 1-6 establish a simple horizontal stat-row mini-family with light, image-overlay, and dark shells.
-- Repeated patterns observed: `1280px` centered desktop container, `375px` mobile frame, two-column intro that stacks on tablet/mobile, three repeated stat items, shared stat number/label typography, and two CTA variants with outline button plus text-link arrow.
-- Likely future candidates: stats section shell, stat list/item, stat number/label pair, CTA button/link pair, dark theme modifier, and image-overlay treatment.
-- Keep section-specific for now: source height anchors, image crop/overlay placement, CTA presence, heading scale differences between the tagline/action and heading-only variants, and exact responsive stacking thresholds.
+- Stats 7-12 establish a vertical title/stat mini-family with the same light, image-overlay, and dark shell progression.
+- Repeated patterns observed: `1280px` centered desktop container, `375px` mobile frame, three repeated stat items, source `1px` left stat rules, shared stat number/label typography, CTA variants with outline button plus text-link arrow, dark theme modifier, and image-overlay treatment.
+- Likely future candidates: stats section shell, stat list/item, stat number/label pair, CTA button/link pair, dark theme modifier, image-overlay treatment, and vertical title block.
+- Keep section-specific for now: source height anchors, image crop/overlay placement, CTA presence, horizontal versus vertical intro structures, heading scale differences, and exact responsive stacking thresholds.

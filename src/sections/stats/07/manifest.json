@@ -1,0 +1,22 @@
+{
+  "id": "stats-7",
+  "category": "stats",
+  "variant": "7",
+  "sourceName": "Stats / 7 /",
+  "status": "draft",
+  "source": {
+    "route": "/stats",
+    "json": "../../../../source/figma-site/raw-json/stats.json",
+    "componentSetNode": "5:237755",
+    "desktopNode": "5:237756",
+    "mobileNode": "5:237777"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/0ce0c7b03fa6f5b2eefce37be2272f6f4f5e3627.svg"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 833.",
+    "mobile": "Source geometry at 375 x 959; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Single-column title, stat row, and actions compress fluidly; stat cards stack before cramped tablet widths."
+  }
+}

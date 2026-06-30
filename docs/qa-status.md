@@ -55,6 +55,12 @@ Header category human visual QA passed for Headers 44-70 on 2026-06-30. Implemen
 | `stats-4` | `draft` | Image-overlay stat row with heading/body copy, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; image loads, overlay renders, and no horizontal overflow, stat overlap, or hidden text detected. Needs human visual QA review. |
 | `stats-5` | `draft` | Dark stat row with tagline, body copy, CTA button/link, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, button overlap, or hidden text detected. Needs human visual QA review. |
 | `stats-6` | `draft` | Dark stat row with heading/body copy, three stats, and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-7` | `draft` | Light vertical title/body stat section with CTA row and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, CTA overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-8` | `draft` | Light vertical heading/stat section with source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-9` | `draft` | Image-overlay vertical title/body stat section with CTA row and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; image loads, overlay renders, and no horizontal overflow, stat overlap, CTA overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-10` | `draft` | Image-overlay vertical heading/stat section with source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; image loads, overlay renders, and no horizontal overflow, stat overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-11` | `draft` | Dark vertical title/body stat section with CTA row and source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, CTA overlap, or hidden text detected. Needs human visual QA review. |
+| `stats-12` | `draft` | Dark vertical heading/stat section with source left stat rules. Checked at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, stat overlap, or hidden text detected. Needs human visual QA review. |
 
 ## Check Artifacts
 

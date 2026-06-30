@@ -72,7 +72,7 @@
 .stats-23__content {
   display: flex;
   width: 100%;
-  align-items: flex-start;
+  align-items: center;
   gap: 80px;
 }
 
@@ -90,7 +90,7 @@
 
 .stats-23__tab {
   gap: 8px;
-  border-left: 2px solid currentColor;
+  border-left: 0 solid currentColor;
   padding-left: 32px;
 }
 

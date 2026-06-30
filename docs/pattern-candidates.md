@@ -84,6 +84,7 @@ Observed only. Do not abstract yet.
 
 ## Stats Category
 
+- Stats category human visual QA has passed for Stats 1-60; implementation status remains `draft`.
 - Stats 1-6 establish a simple horizontal stat-row mini-family with light, image-overlay, and dark shells.
 - Stats 7-12 establish a vertical title/stat mini-family with the same light, image-overlay, and dark shell progression.
 - Stats 13-18 add split content/stat-cluster variants with four-stat and two-stat-description structures across light, image-overlay, and dark themes.

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Section Catalog - Banners</title>
+    <title>Section Catalog</title>
     <style>
       * {
         box-sizing: border-box;
@@ -34,29 +34,35 @@
   <body>
     <script>
       const previews = [
-        { number: 1, height: 260 },
-        { number: 2, height: 260 },
-        { number: 3, height: 260 },
-        { number: 4, height: 260 },
-        { number: 5, height: 260 },
-        { number: 6, height: 260 },
-        { number: 7, height: 260 },
-        { number: 8, height: 260 },
-        { number: 9, height: 260 },
-        { number: 10, height: 260 },
-        { number: 11, height: 260 },
-        { number: 12, height: 260 },
-        { number: 13, height: 454 },
-        { number: 14, height: 260 },
-        { number: 15, height: 260 },
-        { number: 16, height: 260 },
+        { category: "banner", label: "Banner", number: 1, height: 260 },
+        { category: "banner", label: "Banner", number: 2, height: 260 },
+        { category: "banner", label: "Banner", number: 3, height: 260 },
+        { category: "banner", label: "Banner", number: 4, height: 260 },
+        { category: "banner", label: "Banner", number: 5, height: 260 },
+        { category: "banner", label: "Banner", number: 6, height: 260 },
+        { category: "banner", label: "Banner", number: 7, height: 260 },
+        { category: "banner", label: "Banner", number: 8, height: 260 },
+        { category: "banner", label: "Banner", number: 9, height: 260 },
+        { category: "banner", label: "Banner", number: 10, height: 260 },
+        { category: "banner", label: "Banner", number: 11, height: 260 },
+        { category: "banner", label: "Banner", number: 12, height: 260 },
+        { category: "banner", label: "Banner", number: 13, height: 454 },
+        { category: "banner", label: "Banner", number: 14, height: 260 },
+        { category: "banner", label: "Banner", number: 15, height: 260 },
+        { category: "banner", label: "Banner", number: 16, height: 260 },
+        { category: "header", label: "Header", number: 44, folder: "44", height: 540 },
+        { category: "header", label: "Header", number: 45, folder: "45", height: 590 },
+        { category: "header", label: "Header", number: 46, folder: "46", height: 420 },
+        { category: "header", label: "Header", number: 47, folder: "47", height: 520 },
+        { category: "header", label: "Header", number: 48, folder: "48", height: 640 },
+        { category: "header", label: "Header", number: 49, folder: "49", height: 420 },
       ];
 
       for (const preview of previews) {
-        const folder = preview.number < 10 ? `0${preview.number}` : String(preview.number);
+        const folder = preview.folder ?? (preview.number < 10 ? `0${preview.number}` : String(preview.number));
         const iframe = document.createElement("iframe");
-        iframe.src = `../src/sections/banner/${folder}/section.html`;
-        iframe.title = `Banner ${preview.number} preview`;
+        iframe.src = `../src/sections/${preview.category}/${folder}/section.html`;
+        iframe.title = `${preview.label} ${preview.number} preview`;
         iframe.style.setProperty("--preview-height", `${preview.height}px`);
         document.body.appendChild(iframe);
       }

@@ -7,6 +7,7 @@
 - Assets version: `v11`
 - Bundle creation date from live HTML: `2026-06-27 20:57:44 UTC`
 - Route JSON saved: `source/figma-site/raw-json/banner.json`
+- Route JSON saved: `source/figma-site/raw-json/header.json`
 - Route HTML snapshot saved: `source/figma-site/raw-json/banner.html`
 
 ## Local Naming Convention
@@ -281,3 +282,88 @@
 - Mobile geometry: white `375 x 160` outer shell with `8px` top/bottom padding and `16px` row gap; two `375 x 64` content rows; first row starts at x `0`, second row starts at x `-800.5`; text wrappers are `168 x 28` with `20px` bold text and `28px` line height; image rectangles are `64 x 64`; row item gap is `8px`.
 - Assets: reuses `source/figma-site/assets/6cb201291e4ea983199a3a89a94ca74dbc837c13.png`.
 - Plan: implement as a scoped two-row clipped logo/media ticker, interpolating text sizing and second-row offset between desktop and mobile anchors.
+
+## Header / 46 / Implementation Note
+
+- Stable section id: `header-46`
+- Source variant name: `Header / 46 /`
+- Component set node: `3:39766`
+- Desktop component node: `3:39767`, instance node: `3:40312`, size `1440 x 369`
+- Mobile component node: `3:39772`, instance node: `26:126436`, size `375 x 316`
+- Shell family: light text-only header on a white background.
+- Content/action pattern: heading plus body copy; no actions, controls, images, icons, dividers, or borders.
+- Desktop geometry: root padding `112px 64px`; centered `1280 x 145` container; `768 x 145` content block; `24px` vertical gap; heading `56/67.2`; body `18/27`; text aligned left.
+- Mobile geometry: root padding `64px 20px`; `335 x 188` content block inside the `375px` source frame; `20px` vertical gap; heading `40/48`; body `16/24`; text aligned left.
+- Assets: none required.
+- Plan: implement as a scoped semantic text header with desktop and mobile source anchors and fluid typography/padding between anchors; keep tablet as a natural interpolated text layout.
+
+## Header / 44 / Implementation Note
+
+- Stable section id: `header-44`
+- Source variant name: `Header / 44 /`
+- Component set node: `3:39712`
+- Desktop component node: `3:39713`, instance node: `3:40310`, size `1440 x 489`
+- Mobile component node: `3:39725`, instance node: `26:126434`, size `375 x 424`
+- Shell family: light left-column CTA header on a white background.
+- Content/action pattern: tagline, heading, body copy, and two-button action group.
+- Visual chrome: no image, icon, border, divider, or background media; only black/white button chrome.
+- Desktop geometry: root padding `112px 64px`; `1280 x 265` container; `768 x 265` content block; section title `185px` high; actions `208 x 48`; buttons `96 x 48` with `16px` gap.
+- Mobile geometry: root padding `64px 20px`; `335 x 296` content block inside the `375px` source frame; section title `224px` high; actions `208 x 48`; buttons remain horizontal with `16px` gap.
+- Assets: none required.
+- Plan: implement as a scoped semantic CTA header with source-anchored desktop/mobile spacing, fluid tablet compression, and a fixed-width two-button row.
+
+## Header / 45 / Implementation Note
+
+- Stable section id: `header-45`
+- Source variant name: `Header / 45 /`
+- Component set node: `3:39737`
+- Desktop component node: `3:39738`, instance node: `3:40311`, size `1440 x 523`
+- Mobile component node: `3:39752`, instance node: `26:126435`, size `375 x 540`
+- Shell family: light left-column email signup header.
+- Content/action pattern: tagline, heading, body copy, email input, submit button, and terms text.
+- Visual chrome: white background; black bordered input; black filled submit button; no image, icon, divider, or border.
+- Desktop geometry: `768 x 299` content block; title `185px` high; actions `513 x 82`; form `513 x 48` with input `396 x 48`, button `101 x 48`, and `16px` gap.
+- Mobile geometry: `335 x 412` content block; title `224px` high; actions `335 x 164`; form stacks input and button at `335 x 48`; terms text wraps to `36px`.
+- Assets: none required.
+
+## Header / 47 / Implementation Note
+
+- Stable section id: `header-47`
+- Source variant name: `Header / 47 /`
+- Component set node: `3:39777`
+- Desktop component node: `3:39778`, instance node: `3:40313`, size `1440 x 385`
+- Mobile component node: `3:39790`, instance node: `26:126437`, size `375 x 472`
+- Shell family: light two-column CTA header.
+- Content/action pattern: left tagline and heading; right long body copy and two-button group.
+- Visual chrome: white background; black/white buttons; no image, icon, divider, or border.
+- Desktop geometry: `1280 x 161` row with two `600px` columns and `80px` gap; actions `208 x 48`.
+- Mobile geometry: `335 x 344` stacked content; intro `132px` high; body/action column `192px` high.
+- Assets: none required.
+
+## Header / 48 / Implementation Note
+
+- Stable section id: `header-48`
+- Source variant name: `Header / 48 /`
+- Component set node: `3:39802`
+- Desktop component node: `3:39803`, instance node: `3:40314`, size `1440 x 419`
+- Mobile component node: `3:39817`, instance node: `26:126438`, size `375 x 588`
+- Shell family: light two-column email signup header.
+- Content/action pattern: left tagline and heading; right long body copy, email input, submit button, and terms text.
+- Visual chrome: white background; black bordered input; black filled submit button; no image, icon, divider, or border.
+- Desktop geometry: `1280 x 195` row with two `600px` columns and `80px` gap; actions `513 x 82`.
+- Mobile geometry: `335 x 460` stacked content; intro `132px` high; body/form/terms column `308px` high.
+- Assets: none required.
+
+## Header / 49 / Implementation Note
+
+- Stable section id: `header-49`
+- Source variant name: `Header / 49 /`
+- Component set node: `3:39831`
+- Desktop component node: `3:39832`, instance node: `3:40315`, size `1440 x 305`
+- Mobile component node: `3:39839`, instance node: `26:126439`, size `375 x 364`
+- Shell family: light two-column text-only header.
+- Content/action pattern: heading and long body copy; no action controls.
+- Visual chrome: white background only; no image, icon, divider, border, form, or buttons.
+- Desktop geometry: `1280 x 81` row with two `600px` columns and `80px` gap.
+- Mobile geometry: `335 x 236` stacked content with `20px` gap; heading `96px`; body `120px`.
+- Assets: none required.

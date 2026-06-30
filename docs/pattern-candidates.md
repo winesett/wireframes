@@ -66,3 +66,12 @@ Observed only. Do not abstract yet.
 - Action/content patterns observed: email form, single button, two-button group, social links, inline text link, repeated text logos, oversized repeated heading text, and repeated image/media logo mixes.
 - Likely shared primitive candidates: section shell sizing, `375px` mobile frame behavior, bottom-divider strip rule, dismiss control placement, Relume mark/message stack, button groups, social icon group, repeated text-logo item, and clipped ticker row mechanics.
 - Patterns that should stay section-specific for now: Banner 13 oversized heading offsets and scale, Banner 15 one-row media ticker sizing, Banner 16 two-row stagger offsets, and per-variant desktop/mobile breakpoints where source geometry changes meaningfully.
+
+## Header Category
+
+- Header 44 and Header 46 both use a light white shell, centered max-width page frame, left-aligned `768px` copy block, no media, no border, and no divider.
+- Header 44 adds a tagline and fixed `208 x 48` two-button action row; Header 46 is text-only.
+- Header 45 extends the left-column shell with an email form and terms text.
+- Headers 47-49 start a two-column light header family: `600px` desktop columns, `80px` desktop gap, stacked mobile layout, no media, border, or divider.
+- Header action/content patterns now observed: text-only, two-button CTA, email form with terms, two-column CTA, two-column email form with terms, and two-column text-only.
+- Do not abstract header primitives yet; the repeated shell and action patterns are becoming clearer, but this pass intentionally remains section-scoped.

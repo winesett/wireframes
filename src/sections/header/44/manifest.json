@@ -1,0 +1,20 @@
+{
+  "id": "header-44",
+  "category": "header",
+  "variant": "44",
+  "sourceName": "Header / 44 /",
+  "status": "draft",
+  "source": {
+    "route": "/header",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/header.json",
+    "desktopNode": "3:40310",
+    "mobileNode": "26:126434"
+  },
+  "assets": [],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 489.",
+    "mobile": "Source geometry at 375 x 424; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Fluid left-column CTA header between desktop and mobile anchors; the button row remains horizontal while text and padding compress."
+  }
+}

@@ -36,3 +36,9 @@
 - Recorded human visual QA pass for Banners 1-16. Implementation status remains `draft`; no section HTML/CSS was changed.
 - Started a tiny banner-only shared CSS cleanup on `banner-shared-css-pass`: added category-local shared shell, mobile-frame, divider, container-background, and close-control rules while preserving section-specific layout geometry.
 - Added banner-local reusable button classes for Banners 1, 2, 3, 6, 7, and 8 while preserving existing section-specific classes, sizing, and action layout rules.
+
+## 2026-06-30
+
+- Added `header-46` from the saved header source snapshot; it is a light text-only header with no assets, controls, dividers, or borders. Checked through the persistent preview server at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow or hidden text.
+- Added `header-44` from the saved header source snapshot; it is a light left-column CTA header with a tagline and two-button group, no assets, and no dividers or borders. Checked through the persistent preview server at `1440`, `1024`, `768`, `390`, and `320`; no horizontal overflow, button overlap, or hidden text.
+- Added `header-45`, `header-47`, `header-48`, and `header-49` from the saved header source snapshot. Each remains section-scoped, uses no assets, keeps status `draft`, and passed the five-width preview-server check at `1440`, `1024`, `768`, `390`, and `320`.

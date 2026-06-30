@@ -1,0 +1,35 @@
+{
+  "id": "footer-1",
+  "category": "footer",
+  "variant": "1",
+  "sourceName": "Footer / 1 /",
+  "status": "draft",
+  "source": {
+    "route": "/footer",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/footer.json",
+    "desktopNode": "3:31701",
+    "mobileNode": "26:124718",
+    "desktopComponent": "2:14307",
+    "mobileComponent": "2:14371"
+  },
+  "classification": {
+    "shellFamily": "newsletter-link-social",
+    "contentPattern": "newsletterLinksSocial",
+    "assetNeeds": "f07697af81e3489cd115f6dd16674376347c0d80.svg, 542694bf9edf8d34e8be7fcf7c9aa281a005f0e5.svg, 64205548f4ee19fd0362d04f06a5d3163563eb10.svg, a9930f3a5872e0ed703568c2e00004a07e8f1835.svg, f87710bc1f4615ed846a28cc98b1a8e493cdd257.svg, a7d710d788512cc497b61528d99ce3a1fd6be6db.svg, e115ff64b4059381b6878e0ae189b3457acdac4e.svg"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/f07697af81e3489cd115f6dd16674376347c0d80.svg",
+    "../../../../source/figma-site/assets/542694bf9edf8d34e8be7fcf7c9aa281a005f0e5.svg",
+    "../../../../source/figma-site/assets/64205548f4ee19fd0362d04f06a5d3163563eb10.svg",
+    "../../../../source/figma-site/assets/a9930f3a5872e0ed703568c2e00004a07e8f1835.svg",
+    "../../../../source/figma-site/assets/f87710bc1f4615ed846a28cc98b1a8e493cdd257.svg",
+    "../../../../source/figma-site/assets/a7d710d788512cc497b61528d99ce3a1fd6be6db.svg",
+    "../../../../source/figma-site/assets/e115ff64b4059381b6878e0ae189b3457acdac4e.svg"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 541.",
+    "mobile": "Source geometry at 375 x 1422; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Fluid footer layout compresses link columns, forms, social rows, and legal rows before stacking to the mobile source order."
+  }
+}

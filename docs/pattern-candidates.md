@@ -115,3 +115,10 @@ Observed only. Do not abstract yet.
 - FAQ 14 establishes an icon-led FAQ grid using a source SVG icon.
 - Repeated candidates: FAQ section shell, title block, CTA block, accordion item, toggle icon, bordered card item, static FAQ item, divider row, and icon FAQ block.
 - Keep section-specific for now: source heights, two-column mobile stacking, mixed FAQ 11 card/row treatment, FAQ 9 row rhythm, and exact grid column counts.
+
+## Footer Category
+
+- Footer 1-17 establish the footer category with newsletter/link/social, logo/link/newsletter, contact/social, compact centered, large CTA, bordered-card, and image-band families.
+- Repeated patterns observed: Relume logo block, link-column groups, newsletter form rows, social icon/text link groups, legal link rows, source divider rules, card-border shells, app badge block, and image-band footer panels.
+- Likely future candidates: footer section shell, footer link column, legal row, newsletter form, social list, CTA action pair, card shell, and image-band helper.
+- Keep section-specific for now: exact mobile heights, number of link columns, CTA/link ordering, legal/social row reversal in Footer 17, image-band placement, and bordered-card versus borderless footer chrome.

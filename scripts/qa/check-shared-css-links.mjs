@@ -5,7 +5,7 @@ const repoRoot = process.cwd();
 const sectionsRoot = path.join(repoRoot, "src", "sections");
 
 const linkedSharedCategories = ["header", "stats", "logo", "faq"];
-const allCategories = ["banner", ...linkedSharedCategories];
+const allCategories = ["banner", ...linkedSharedCategories, "footer"];
 const errors = [];
 
 function listSectionFolders(category) {
@@ -106,4 +106,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log("Shared CSS links OK (Header/Stats/Logo/FAQ HTML links; Banner CSS-import convention preserved).");
+console.log("Shared CSS links OK (Header/Stats/Logo/FAQ HTML links; Banner CSS-import convention preserved; Footer has no shared CSS yet).");

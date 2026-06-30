@@ -9,5 +9,6 @@ This file is the docs-only source of truth for category progress. Section manife
 | Stats | 60 | 60 | `source/figma-site/raw-json/stats.json` | Five-width checks passed during section builds. | Passed | Present: `src/sections/stats/stats.shared.css` | `draft` | Stats source borders, rules, cards, media, and tabs remain section-specific. |
 | Logo | 6 | 6 | `source/figma-site/raw-json/logo.json` | Five-width checks passed during section builds. | Passed | Present: `src/sections/logo/logo.shared.css` | `draft` | Logo ticker and exact logo sizing remain section-specific. |
 | FAQ | 14 | 14 | `source/figma-site/raw-json/faq.json` | Five-width checks passed during section builds. | Passed | Present: `src/sections/faq/faq.shared.css` | `draft` | FAQ accordion, card, divider, and icon layouts remain section-specific. |
+| Footer | 17 | 17 | `source/figma-site/raw-json/footer.json` | Five-width checks passed during section build. | Pending | Not started | `draft` | Footer link columns, newsletter forms, social rows, legal rows, card borders, and image bands remain section-specific. |
 
-Current total built previews: 123.
+Current total built previews: 140.

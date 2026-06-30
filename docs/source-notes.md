@@ -537,3 +537,27 @@
 - `faq-12`: left title with eight static FAQ items in a two-column grid; source `1440 x 1425` desktop and `375 x 2682` mobile.
 - `faq-13`: left title with six static FAQ items in a three-column grid; source `1440 x 1115` desktop and `375 x 2134` mobile.
 - `faq-14`: centered title with six icon-led FAQ blocks in a three-column grid; source `1440 x 1163` desktop and `375 x 1962` mobile.
+
+## Footer / 1-17 / Implementation Notes
+
+- Route JSON saved: `source/figma-site/raw-json/footer.json`.
+- Source contains 17 footer variants, each with desktop and mobile instances. Folder convention follows source numbering with zero-padded folders `01` through `09`, then `10` through `17`; ids are `footer-1` through `footer-17`.
+- Shared source content includes Relume logo, repeated `Link One` style nav groups, newsletter subscribe forms, legal links, social links, and footer copyright rows.
+- New vendored source assets: `f07697af81e3489cd115f6dd16674376347c0d80.svg` for the Relume logo, `542694bf9edf8d34e8be7fcf7c9aa281a005f0e5.svg` for divider source chrome, `1065bbe7a7016f88b5eff0a1b65eaebc89ff7f95.png` for the app badge, `1737d51146e1b8b76eee33c9a5f5229cabb2e0ee.png` for image-band variants, plus `e115ff64b4059381b6878e0ae189b3457acdac4e.svg` alongside existing social SVG assets.
+- `footer-1`: newsletter, two link columns, Follow Us social labels, and legal divider; source `1440 x 541` desktop and `375 x 1422` mobile.
+- `footer-2`: logo, three link columns, newsletter form, and legal divider; source `1440 x 544` desktop and `375 x 1509` mobile.
+- `footer-3`: contact details, social links, two link lists, and legal divider; source `1440 x 554` desktop and `375 x 1035` mobile.
+- `footer-4`: compact logo, inline links, social icons, and legal divider; source `1440 x 329` desktop and `375 x 689` mobile.
+- `footer-5`: newsletter/form top row with logo plus five link columns and legal divider; source `1440 x 679` desktop and `375 x 2015` mobile.
+- `footer-6`: newsletter/form top row with six link columns, two dividers, logo, and legal row; source `1440 x 771` desktop and `375 x 2101` mobile.
+- `footer-7`: centered logo, links, social icons, and legal divider; source `1440 x 382` desktop and `375 x 601` mobile.
+- `footer-8`: compact logo/links plus subscribe form and legal divider; source `1440 x 411` desktop and `375 x 795` mobile.
+- `footer-9`: bordered card newsletter/link/social footer; source `1440 x 549` desktop and `375 x 1464` mobile.
+- `footer-10`: bordered card logo/link/newsletter footer; source `1440 x 537` desktop and `375 x 1543` mobile.
+- `footer-11`: bordered card contact/link/social footer; source `1440 x 570` desktop and `375 x 1035` mobile.
+- `footer-12`: CTA, two-button group, link lists, app badge, social links, and legal divider; source `1440 x 662` desktop and `375 x 1143` mobile.
+- `footer-13`: bordered card CTA/link/logo footer; source `1440 x 655` desktop and `375 x 1274` mobile.
+- `footer-14`: large CTA, six link columns, app badge/logo/social/legal rows, and two dividers; source `1440 x 959` desktop and `375 x 2283` mobile.
+- `footer-15`: contact/social plus link lists with image band and legal row; source `1440 x 760` desktop and `375 x 1131` mobile.
+- `footer-16`: newsletter/link/social footer with image band and legal row; source `1440 x 731` desktop and `375 x 1480` mobile.
+- `footer-17`: compact subscribe footer with image band and reversed legal/social row; source `1440 x 601` desktop and `375 x 893` mobile.

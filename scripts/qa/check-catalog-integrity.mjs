@@ -11,6 +11,7 @@ const expectedCounts = {
   stats: 60,
   logo: 6,
   faq: 14,
+  footer: 17,
 };
 
 const errors = [];

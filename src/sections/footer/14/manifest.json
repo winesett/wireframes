@@ -1,0 +1,31 @@
+{
+  "id": "footer-14",
+  "category": "footer",
+  "variant": "14",
+  "sourceName": "Footer / 14 /",
+  "status": "draft",
+  "source": {
+    "route": "/footer",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/footer.json",
+    "desktopNode": "3:31688",
+    "mobileNode": "26:124731",
+    "desktopComponent": "2:12730",
+    "mobileComponent": "2:12838"
+  },
+  "classification": {
+    "shellFamily": "large-cta-six-link-columns",
+    "contentPattern": "largeCta",
+    "assetNeeds": "f07697af81e3489cd115f6dd16674376347c0d80.svg, 542694bf9edf8d34e8be7fcf7c9aa281a005f0e5.svg, 1065bbe7a7016f88b5eff0a1b65eaebc89ff7f95.png"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/f07697af81e3489cd115f6dd16674376347c0d80.svg",
+    "../../../../source/figma-site/assets/542694bf9edf8d34e8be7fcf7c9aa281a005f0e5.svg",
+    "../../../../source/figma-site/assets/1065bbe7a7016f88b5eff0a1b65eaebc89ff7f95.png"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 959.",
+    "mobile": "Source geometry at 375 x 2283; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Fluid footer layout compresses link columns, forms, social rows, and legal rows before stacking to the mobile source order."
+  }
+}

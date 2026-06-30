@@ -1,0 +1,30 @@
+{
+  "id": "footer-10",
+  "category": "footer",
+  "variant": "10",
+  "sourceName": "Footer / 10 /",
+  "status": "draft",
+  "source": {
+    "route": "/footer",
+    "bundleId": "2f34a538-9a2c-4992-80d6-af21effa18c8",
+    "json": "../../../../source/figma-site/raw-json/footer.json",
+    "desktopNode": "3:31692",
+    "mobileNode": "26:124727",
+    "desktopComponent": "2:13256",
+    "mobileComponent": "2:13325"
+  },
+  "classification": {
+    "shellFamily": "card-logo-links-newsletter",
+    "contentPattern": "linksNewsletter",
+    "assetNeeds": "f07697af81e3489cd115f6dd16674376347c0d80.svg, 542694bf9edf8d34e8be7fcf7c9aa281a005f0e5.svg"
+  },
+  "assets": [
+    "../../../../source/figma-site/assets/f07697af81e3489cd115f6dd16674376347c0d80.svg",
+    "../../../../source/figma-site/assets/542694bf9edf8d34e8be7fcf7c9aa281a005f0e5.svg"
+  ],
+  "responsive": {
+    "desktop": "Source geometry at 1440 x 537.",
+    "mobile": "Source geometry at 375 x 1543; capped at 375px and centered for narrow mobile previews.",
+    "tablet": "Fluid footer layout compresses link columns, forms, social rows, and legal rows before stacking to the mobile source order."
+  }
+}

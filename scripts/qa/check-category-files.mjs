@@ -10,6 +10,7 @@ const categories = [
   { name: "stats", expectedCount: 60 },
   { name: "logo", expectedCount: 6 },
   { name: "faq", expectedCount: 14 },
+  { name: "footer", expectedCount: 17, rootTags: ["footer"] },
 ];
 
 const errors = [];

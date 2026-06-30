@@ -61,3 +61,4 @@
 - Fixed FAQ accordion toggle asset mapping for `faq-1`, `faq-2`, `faq-3`, and `faq-10` so divider accordion variants use the source chevron assets instead of the X toggle asset.
 - Recorded human visual QA pass for FAQ 1-14. Implementation status remains `draft`.
 - Added a docs-only category status table and lightweight Node validation scripts for built category files, catalog integrity, category-local shared CSS links, and combined library health. No section implementation files, catalog previews, tokens, or primitives were changed.
+- Saved the Footer route source snapshot and added `footer-1` through `footer-17`. Vendored the required Relume logo, divider, app badge, image-band, and social SVG/PNG assets; preserved newsletter forms, legal rows, card borders, image bands, social-link groups, and source footer link structures; kept each section section-scoped with status `draft`; and checked each at `1440`, `1024`, `768`, `390`, and `320`.

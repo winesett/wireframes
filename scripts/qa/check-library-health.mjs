@@ -6,8 +6,8 @@ const checks = [
   ["Shared CSS links", "scripts/qa/check-shared-css-links.mjs"],
 ];
 
-const categories = ["banner", "header", "stats", "logo", "faq"];
-const expectedSectionCount = 123;
+const categories = ["banner", "header", "stats", "logo", "faq", "footer"];
+const expectedSectionCount = 140;
 let failures = 0;
 
 for (const [label, script] of checks) {
